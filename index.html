@@ -59,7 +59,7 @@
 	
 	
 	<script type="text/javascript">
-		(function() {		
+		var ready = (function() {		
 			function toArray(list) {
 				return Array.prototype.slice.call(list || [], 0);
 			}
@@ -135,9 +135,11 @@
 					alert('No filesystem');
 				}
 			
-				window.requestFileSystem(window.PERSISTENT, 1024*1024, onInitFs, errorHandler);	
+				window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024*1024, onInitFs, errorHandler);	
 			});	
-		})();
+		});
+		
+		document.addEventListener('deviceready', ready);
 </script>
 </body>
 </html>
