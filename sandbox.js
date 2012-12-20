@@ -47,6 +47,8 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
+	alert('build 1');
+	
 	var unzipPackage = function() {
 		alert('fetching the package');
 		var x = 0;
