@@ -85,29 +85,28 @@
 			});
 		}
 
-		if (typeof requestFileSystem == "undefined")
-			creationMethodInput.options.length = 1;
-		fileButton.addEventListener('click', function() {
-			fileInput.disabled = true;
-			model.getEntries(fileInput.value, function(entries) {
-				fileList.innerHTML = "";
-				entries.forEach(function(entry) {
-					var li = document.createElement("li");
-					var a = document.createElement("a");
-					a.textContent = entry.filename;
-					a.href = "#";
-					a.addEventListener("click", function(event) {
-						if (!a.download) {
-							download(entry, li, a);
-							event.preventDefault();
-							return false;
-						}
-					}, false);
-					li.appendChild(a);
-					fileList.appendChild(li);
+		
+				fileButton.addEventListener('click', function() {
+					fileInput.disabled = true;
+					model.getEntries(fileInput.value, function(entries) {
+						fileList.innerHTML = "";
+						entries.forEach(function(entry) {
+							var li = document.createElement("li");
+							var a = document.createElement("a");
+							a.textContent = entry.filename;
+							a.href = "#";
+							a.addEventListener("click", function(event) {
+								if (!a.download) {
+									download(entry, li, a);
+									event.preventDefault();
+									return false;
+								}
+							}, false);
+							li.appendChild(a);
+							fileList.appendChild(li);
+						});
 				});
-			});
-		}, false);
+			}, false);
 	})();
 
 })(this);
