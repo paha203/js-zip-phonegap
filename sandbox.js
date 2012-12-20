@@ -47,6 +47,7 @@ var fetchPackage = function() {
 	};
 	
 	var unzipPackage = function() {
+		alert('fetching the package');
 		var x = 0;
 		zip.createReader(new zip.HttpReader('http://192.168.1.50/js-zip/output.zip'), function(reader) {	
 			// get all entries from the zip
@@ -66,7 +67,7 @@ var fetchPackage = function() {
 										console.log('Write failed: ' + e.toString());
 									};
 									
-									fileWriter.onwriteend = function(e) {
+									fileWriter.onwrite = function(e) {
 										console.log('Write of the file entry ' + entry.filename + 'completed.');
 									};
 								
@@ -90,10 +91,10 @@ var fetchPackage = function() {
 	
 	var onInitFs = function(fs) {
 		window._fs = fs.root;
+		
+		alert('filesystem initialized');
 		unzipPackage();
 	}
-	
-	window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem;
 	
 	window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onInitFs, fileErrorHandler);
 }
