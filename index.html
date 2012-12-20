@@ -59,7 +59,9 @@
 	
 	
 	<script type="text/javascript">
-		var ready = (function() {		
+		var ready = function() {	
+			alert('ready has run');
+		
 			function toArray(list) {
 				return Array.prototype.slice.call(list || [], 0);
 			}
@@ -131,13 +133,14 @@
 			}
 			
 			document.getElementById('list-files-button').addEventListener('click', function() {
+				alert('listing files');
 				if ( window.requestFileSystem === undefined) {
 					alert('No filesystem');
 				}
 			
 				window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024*1024, onInitFs, errorHandler);	
 			});	
-		});
+		};
 		
 		document.addEventListener('deviceready', ready);
 </script>
