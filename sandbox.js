@@ -33,21 +33,15 @@ var fetchPackage = function() {
 	
 	}
 	
-	function createDir(rootDirEntry, folders) {
-	  // Throw out './' or '/' and move on to prevent something like '/foo/.//bar'.
-	  if (folders[0] == '.' || folders[0] == '') {
-		folders = folders.slice(1);
-	  }
+	function createDir(rootDirEntry, folders) {	  
+	  var folder = folders.substr(0, folders.indexOf('/'));
 	  
-	  var t = folders[0].replace(' ', '\\ ');
-	  
-	  console.log(t);
-	  console.log(folders[0]);
-	  
-	  rootDirEntry.getDirectory(t, {create: true}, function(dirEntry) {
+	  rootDirEntry.getDirectory(folder, {create: true}, function(dirEntry) {
 		// Recursively add the new subfolder (if we still have another to create).
-		if (folders.length) {
-		  createDir(dirEntry, folders.slice(1));
+		var subfolders = folders.substr(folder.length+1);
+		
+		if (subfolders.length) {
+		  createDir(dirEntry, subfolders);
 		}
 	  }, fileErrorHandler);
 	};
