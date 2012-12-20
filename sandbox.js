@@ -34,6 +34,7 @@ var fetchPackage = function() {
 	}
 	
 	function createDir(rootDirEntry, folders) {	  
+		console.log('creating directory: ' + folders);
 	  var folder = folders.substr(0, folders.indexOf('/'));
 	  
 	  rootDirEntry.getDirectory(folder, {create: true}, function(dirEntry) {
@@ -60,8 +61,7 @@ var fetchPackage = function() {
 					alert('many entries ('+entries.length+')');
 					
 					entries.forEach(function(entry){
-						if (entry.directory) {
-							console.log('creating directory: ' + entry.filename);
+						if (entry.directory) {							
 							createDir(window._fs, entry.filename);
 						} else { 
 							window._fs.getFile(entry.filename, {
@@ -78,6 +78,7 @@ var fetchPackage = function() {
 									};
 								
 									entry.getData(new zip.TextWriter(), function(text) {
+										console.log(text);
 										// text contains the entry data as a String
 										fileWriter.write(text);			
 										
