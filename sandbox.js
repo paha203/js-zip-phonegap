@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 2');	
+	alert('build 3');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -74,11 +74,11 @@ var fetchPackage = function() {
 								fileEntry.createWriter(function(fileWriter) {							  
 									alert('created the file writer');
 									fileWriter.onerror = function(e) {
-										console.log('Write failed: ' + e.toString());
+										alert('Write failed: ' + e.toString());
 									};
 									
 									fileWriter.onwrite = function(e) {
-										console.log('Write of the file entry ' + entry.filename + 'completed.');
+										alert('Write of the file entry ' + entry.filename + 'completed.');
 									};
 								
 									entry.getData(new zip.TextWriter(), function(text) {
