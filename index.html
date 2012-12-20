@@ -64,11 +64,13 @@
 			
 				listFiles();	
 			});	
+			
+			window.listFiles = function() {
+				window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024*1024, onInitFs, errorHandler);
+			}
 		};
 		
-		var listFiles = function() {
-			window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024*1024, onInitFs, errorHandler);
-		}
+		
 		
 		document.addEventListener('deviceready', function(){
 			alert('device is ready');
