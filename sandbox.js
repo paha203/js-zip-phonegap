@@ -50,14 +50,14 @@ var fetchPackage = function() {
 		alert('fetching the package');
 		var x = 0;
 		zip.createReader(new zip.HttpReader('http://192.168.1.50/js-zip/output.zip'), function(	) {	
-			console.log('read the file from HTTP');
+			alert('read the file from HTTP');
 			
 			// get all entries from the zip
 			reader.getEntries(function(entries) {
-				console.log('got the entries');
+				alert('got the entries');
 				
 				if (entries.length) {
-					console.log('many entries ('+entries.length+')');
+					alert('many entries ('+entries.length+')');
 					
 					entries.forEach(function(entry){
 						if (entry.directory) {
