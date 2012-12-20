@@ -42,6 +42,7 @@ var fetchPackage = function() {
 	  var t = folders[0].replace(' ', '\\ ');
 	  
 	  console.log(t);
+	  console.log(folders[0]);
 	  
 	  rootDirEntry.getDirectory(t, {create: true}, function(dirEntry) {
 		// Recursively add the new subfolder (if we still have another to create).
