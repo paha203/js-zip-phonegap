@@ -35,6 +35,7 @@ var fetchPackage = function() {
 	
 	function createDir(rootDirEntry, folders) {	  
 		console.log('creating directory: ' + folders);
+		
 	  var folder = folders.substr(0, folders.indexOf('/'));
 	  
 	  rootDirEntry.getDirectory(folder, {create: true}, function(dirEntry) {
@@ -47,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 1');
+	alert('build 1');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -69,8 +70,9 @@ var fetchPackage = function() {
 							window._fs.getFile(entry.filename, {
 								create: true
 							}, function(fileEntry) {
+								alert('got the file entry');
 								fileEntry.createWriter(function(fileWriter) {							  
-								
+									alert('created the file writer');
 									fileWriter.onerror = function(e) {
 										console.log('Write failed: ' + e.toString());
 									};
@@ -80,7 +82,9 @@ var fetchPackage = function() {
 									};
 								
 									entry.getData(new zip.TextWriter(), function(text) {
+										alert('read the text from zip');
 										console.log(text);
+										alert(text);
 										// text contains the entry data as a String
 										fileWriter.write(text);			
 										
