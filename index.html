@@ -12,35 +12,20 @@
 		var ready = function() {	
 			alert('ready has run');
 		
-			function toArray(list) {
-				return Array.prototype.slice.call(list || [], 0);
-			}
 			
 			function listResults(entries) {			
 				alert('actually listing files');
-				entries.forEach(function(entry, i) {
-					console.log(entry);
-				});
+				comsole.log(entries);
 				
 			}
 			
-			function onInitFs(fs) {
 			
+			function onInitFs(fs) {
+				
 				var dirReader = fs.root.createReader();
-				var entries = [];
-				
-				var readEntries = function() {
-				 dirReader.readEntries (function(results) {
-				  if (!results.length) {
-					listResults(entries.sort());
-				  } else {
-					entries = entries.concat(toArray(results));
-					readEntries();
-				  }
-				}, errorHandler);
-				};
-				
-				readEntries();
+				dirReader.readEntries (function(results) {
+				  	console.log(results);
+				}, errorHandler);				
 			
 			}
 			
