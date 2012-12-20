@@ -143,7 +143,10 @@
 			});	
 		};
 		
-		document.addEventListener('deviceready', ready);
+		document.addEventListener('deviceready', function(){
+			alert('device is ready');
+			ready();			
+		});
 </script>
 </body>
 </html>
