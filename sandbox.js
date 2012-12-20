@@ -49,7 +49,7 @@ var fetchPackage = function() {
 	var unzipPackage = function() {
 		alert('fetching the package');
 		var x = 0;
-		zip.createReader(new zip.HttpReader('http://192.168.1.50/js-zip/output.zip'), function(reader) {	
+		zip.createReader(new zip.HttpReader('http://192.168.1.50/js-zip/output.zip'), function(	) {	
 			// get all entries from the zip
 			reader.getEntries(function(entries) {
 				if (entries.length) {
@@ -77,6 +77,7 @@ var fetchPackage = function() {
 										
 									}, function(current, total) {
 										// onprogress callback
+										console.log(entry.filename+' read: '+current+'/'+total);
 									});							  
 							
 								}, fileErrorHandler);
