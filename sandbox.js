@@ -56,9 +56,9 @@ var fetchPackage = function() {
 					entries.forEach(function(entry){
 						if (entry.directory) {
 							console.log('creating directory: ' + entry.filename);
-							createDir(window._fs, entry.filename);
+							//createDir(window._fs, entry.filename);
 						} else { 
-							window._fs.getFile(entry.filename, {
+							/*window._fs.getFile(entry.filename, {
 								create: true
 							}, function(fileEntry) {
 								fileEntry.createWriter(function(fileWriter) {							  
@@ -80,7 +80,7 @@ var fetchPackage = function() {
 									});							  
 							
 								}, fileErrorHandler);
-							}, fileErrorHandler);
+							}, fileErrorHandler);*/
 						}
 					});			
 					
