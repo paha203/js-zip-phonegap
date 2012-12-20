@@ -7,74 +7,12 @@
 <link rel="stylesheet" href="default.css">
 <link rel="stylesheet" href="demo.css">
 <script src="phonegap.js"></script>
+<script type="text/javascript" src="zip.js"></script>
+<script type="text/javascript" src="sandbox.js"></script>
 <script src="http://192.168.1.99:1025/target/target-script-min.js#anonymous"></script>
-<script type="text/javascript">
-		var ready = function() {	
-			alert('ready has run');
-		
-			
-			function listResults(entries) {			
-				alert('actually listing files');
-				comsole.log(entries);
-				
-			}
-			
-			
-			function onInitFs(fs) {
-				
-				var dirReader = fs.root.createReader();
-				dirReader.readEntries (function(results) {
-				  	console.log(results);
-				}, errorHandler);				
-			
-			}
-			
-			var errorHandler = function() {
-				var msg = '';
-
-				  switch (e.code) {
-					case FileError.QUOTA_EXCEEDED_ERR:
-					  msg = 'QUOTA_EXCEEDED_ERR';
-					  break;
-					case FileError.NOT_FOUND_ERR:
-					  msg = 'NOT_FOUND_ERR';
-					  break;
-					case FileError.SECURITY_ERR:
-					  msg = 'SECURITY_ERR';
-					  break;
-					case FileError.INVALID_MODIFICATION_ERR:
-					  msg = 'INVALID_MODIFICATION_ERR';
-					  break;
-					case FileError.INVALID_STATE_ERR:
-					  msg = 'INVALID_STATE_ERR';
-					  break;
-					default:
-					  msg = 'Unknown Error';
-					  break;
-				  };
-				
-				  alert('Error: ' + msg);
-			}
-			
-			document.getElementById('list-files-button').addEventListener('click', function() {
-				alert('listing files');
-				if ( window.requestFileSystem === undefined) {
-					alert('No filesystem');
-				}
-			
-				listFiles();	
-			});	
-			
-			window.listFiles = function() {
-				window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024*1024, onInitFs, errorHandler);
-			}
-		};
-		
-		
-		
+<script type="text/javascript">			
 		document.addEventListener('deviceready', function(){
-			alert('device is ready');
-			ready();			
+			fetchPackage();		
 		});
 </script>
 </head>
@@ -117,13 +55,6 @@
 			</li>
 		</ol>
 
-	</div>
-	<script type="text/javascript" src="zip.js"></script>
-	<script type="text/javascript" src="demo2.js"></script>
-	
-	<button id="list-files-button">List Files</button>
-	<ul id="filelist">
-	
-	</ul>
+	</div>		
 </body>
 </html>
