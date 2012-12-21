@@ -72,21 +72,21 @@ var fetchPackage = function() {
 							window._fs.getFile(entry.filename, {
 								create: true
 							}, function(fileEntry) {
-								alert('got the file entry');
+								//alert('got the file entry');
 								fileEntry.createWriter(function(fileWriter) {							  
-									alert('created the file writer');
+									//alert('created the file writer');
 									fileWriter.onerror = function(e) {
-										alert('Write failed: ' + e.toString());
+										//alert('Write failed: ' + e.toString());
 									};
 									
 									fileWriter.onwrite = function(e) {
-										alert('Write of the file entry ' + entry.filename + 'completed.');
+										//alert('Write of the file entry ' + entry.filename + 'completed.');
 									};
 								
 									entry.getData(new zip.TextWriter(), function(text) {
-										alert('read the text from zip');
+										//alert('read the text from zip');
 										console.log(text);
-										alert(text);
+										//alert(text);
 										// text contains the entry data as a String
 										fileWriter.write(text);			
 										
