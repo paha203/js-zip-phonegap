@@ -684,10 +684,12 @@
 			}
 
 			function onreaderror() {
+				console.log('error happened when reading');
 				terminate(onerror, ERR_READ_DATA);
 			}
 
 			function onwriteerror() {
+				console.log('error happened writing');
 				terminate(onerror, ERR_WRITE_DATA);
 			}
 
