@@ -705,6 +705,7 @@
 				});
 				dataOffset = that.offset + 30 + that.filenameLength + that.extraFieldLength;
 				writer.init(function() {
+					console.log('should be uncompressing now');
 					if (that.compressionMethod === 0)
 						copy(reader, writer, dataOffset, that.compressedSize, checkCrc32, getWriterData, onprogress, onreaderror, onwriteerror);
 					else
