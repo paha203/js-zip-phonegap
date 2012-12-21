@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 3');	
+	alert('build 4');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -60,12 +60,11 @@ var fetchPackage = function() {
 			reader.getEntries(function(entries) {
 				alert('got the entries');
 				
-				if (entries.length) {
-					alert('many entries ('+entries.length+')');
+				window._testEntries = entries;
+				
+				/*if (entries.length) {
+					alert('many entries ('+entries.length+')');				
 					
-					window._testEntry = entries[0];
-					
-					return;
 					
 					entries.forEach(function(entry){
 						if (entry.directory) {							
@@ -102,7 +101,7 @@ var fetchPackage = function() {
 						}
 					});			
 					
-				}
+				}*/
 			});
 		}, errorHandler);
 	}
