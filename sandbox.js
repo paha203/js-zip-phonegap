@@ -63,6 +63,8 @@ var fetchPackage = function() {
 				if (entries.length) {
 					alert('many entries ('+entries.length+')');
 					
+					window._testEntry = entries[0];
+					
 					entries.forEach(function(entry){
 						if (entry.directory) {							
 							createDir(window._fs, entry.filename);
