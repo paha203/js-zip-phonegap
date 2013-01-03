@@ -38,7 +38,7 @@ var fetchPackage = function() {
 		
 	  var folder = folders.substr(0, folders.indexOf('/'));
 	  
-	  rootDirEntry.getDirectory(folder, {create: true}, function(dirEntry) {
+	  rootDirEntry.getDirectory(folder, {create: true, exclusive: false }, function(dirEntry) {
 		// Recursively add the new subfolder (if we still have another to create).
 		var subfolders = folders.substr(folder.length+1);
 		
@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 5');	
+	alert('build 6');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -85,7 +85,9 @@ var fetchPackage = function() {
 										//alert('Write of the file entry ' + entry.filename + 'completed.');
 									};
 								
-									entry.getData(new zip.TextWriter(), function(text) {
+									fileWriter.write('hello world');
+								
+									/*entry.getData(new zip.TextWriter(), function(text) {
 										//alert('read the text from zip');
 										console.log(text);
 										//alert(text);
@@ -95,7 +97,7 @@ var fetchPackage = function() {
 									}, function(current, total) {
 										// onprogress callback
 										console.log(entry.filename+' read: '+current+'/'+total);
-									});							  
+									});*/							  
 							
 								}, fileErrorHandler);
 							}, fileErrorHandler);
