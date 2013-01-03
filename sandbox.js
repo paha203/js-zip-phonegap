@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 7');	
+	alert('build 8');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -70,8 +70,8 @@ var fetchPackage = function() {
 						if (entry.directory) {							
 							createDir(window._fs, entry.filename);
 						} else { 
-							console.log('attempting to write: ' + 'api/' + entry.filename.replace('/', '_'));
-							window._fs.getFile('api/' + entry.filename.replace('/', '_'), {
+							console.log('attempting to write: ' + 'api/' + entry.filename.replace(/\/g, '_'));
+							window._fs.getFile('api/' + entry.filename.replace(/\/g, '_'), {
 								create: true,
 								exclusive: false,
 							}, function(fileEntry) {
