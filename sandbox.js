@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 9');	
+	alert('build 10');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -87,7 +87,7 @@ var fetchPackage = function() {
 									};
 								
 								
-									entry.getData(new zip.TextWriter(), function(text) {
+									entry.getData(new zip.BlobWriter(), function(text) {
 										//alert('read the text from zip');
 										console.log(text);
 										//alert(text);
