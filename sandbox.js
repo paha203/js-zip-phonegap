@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 4');	
+	alert('build 5');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -62,7 +62,7 @@ var fetchPackage = function() {
 				
 				window._testEntries = entries;
 				
-				/*if (entries.length) {
+				if (entries.length) {
 					alert('many entries ('+entries.length+')');				
 					
 					
@@ -71,7 +71,8 @@ var fetchPackage = function() {
 							createDir(window._fs, entry.filename);
 						} else { 
 							window._fs.getFile(entry.filename, {
-								create: true
+								create: true,
+								exclusive: false,
 							}, function(fileEntry) {
 								//alert('got the file entry');
 								fileEntry.createWriter(function(fileWriter) {							  
@@ -101,7 +102,7 @@ var fetchPackage = function() {
 						}
 					});			
 					
-				}*/
+				}
 			});
 		}, errorHandler);
 	}

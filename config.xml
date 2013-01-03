@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.defacto.ecobuild"
+        version   = "2.0.0">
+    <name>Zip Test</name>
+
+    <description>
+		Zip Test
+    </description>
+
+    <author href="http://www.de-facto.com" email="info@de-facto.com">
+        De Facto Design
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="phonegap-version" value="2.1.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="handset" />
+    <preference name="fullscreen"       value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    
+    <access origin="*" />
+    
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+</widget>
