@@ -53,7 +53,7 @@ var fetchPackage = function() {
 	var unzipPackage = function() {
 		alert('fetching the package');
 		var x = 0;
-		zip.createReader(new zip.HttpReader('http://192.168.1.50/js-zip/output.zip'), function(reader) {	
+		zip.createReader(new zip.HttpReader('http://clients.de-facto.com/shine/container.zip'), function(reader) {	
 			alert('read the file from HTTP');
 			
 			// get all entries from the zip
