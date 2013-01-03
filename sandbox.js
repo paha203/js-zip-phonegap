@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 10');	
+	alert('build 11');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -76,7 +76,7 @@ var fetchPackage = function() {
 								exclusive: false,
 							}, function(fileEntry) {
 								//alert('got the file entry');
-								fileEntry.createWriter(function(fileWriter) {							  
+								/*fileEntry.createWriter(function(fileWriter) {							  
 									//alert('created the file writer');
 									fileWriter.onerror = function(e) {
 										//alert('Write failed: ' + e.toString());
@@ -87,7 +87,7 @@ var fetchPackage = function() {
 									};
 								
 								
-									entry.getData(new zip.BlobWriter(), function(text) {
+									entry.getData(new zip.FileWriter(), function(text) {
 										//alert('read the text from zip');
 										console.log(text);
 										//alert(text);
@@ -99,7 +99,16 @@ var fetchPackage = function() {
 										console.log(entry.filename+' read: '+current+'/'+total);
 									});							  
 							
-								}, fileErrorHandler);
+								}, fileErrorHandler);*/
+								
+								entry.getData(new zip.FileWriter(fileEntry), function(file) {
+										//alert('read the text from zip');
+										console.log(file);
+										
+									}, function(current, total) {
+										// onprogress callback
+										console.log(entry.filename+' read: '+current+'/'+total);
+									});		
 							}, fileErrorHandler);
 						}
 					});			
