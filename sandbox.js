@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 8');	
+	alert('build 9');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
