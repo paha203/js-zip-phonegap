@@ -48,12 +48,28 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 15');	
+	alert('build 16');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
 		var x = 0;
-		zip.createReader(new zip.HttpReader('http://clients.de-facto.com/shine/container.zip'), function(reader) {	
+		
+		var zipFs = new zip.fs.FS();
+          zipFs.importHTTPContent('http://clients.de-facto.com/shine/container.zip', false, function() {
+         	 alert('imported zip');
+            window._fs.getDirectory('api', function(dir) {
+            	alert('getting the dir to export to');
+            	 zipFs.exportFileEntry(dir, function() {
+            	 	alert('exported zip');
+            	 
+            	 });
+            
+            });
+            
+           
+          }, function(){ alert('Error occured'); });
+		
+		/*zip.createReader(new zip.HttpReader('http://clients.de-facto.com/shine/container.zip'), function(reader) {	
 			alert('read the file from HTTP');
 			
 			// get all entries from the zip
@@ -87,7 +103,7 @@ var fetchPackage = function() {
 									};
 								
 								
-									entry.getData(new zip.BlobWriter(), function(blob) {
+									entry.getData(new zip.BlobWriter('text/plain'), function(blob) {
 										
 										
 										var foobar = new FileReader();
@@ -111,7 +127,7 @@ var fetchPackage = function() {
 					
 				}
 			});
-		}, errorHandler);
+		}, errorHandler);*/
 	}
 	
 	var onInitFs = function(fs) {
