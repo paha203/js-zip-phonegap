@@ -70,8 +70,8 @@ var fetchPackage = function() {
 						if (entry.directory) {							
 							createDir(window._fs, entry.filename);
 						} else { 
-							console.log('attempting to write: ' + 'api/' + entry.filename.replace(/\/g, '_'));
-							window._fs.getFile('api/' + entry.filename.replace(/\/g, '_'), {
+							console.log('attempting to write: ' + 'api/' + entry.filename.replace(/\//g, '_'));
+							window._fs.getFile('api/' + entry.filename.replace(/\//g, '_'), {
 								create: true,
 								exclusive: false,
 							}, function(fileEntry) {
