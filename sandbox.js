@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 11');	
+	alert('build 12');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -101,7 +101,7 @@ var fetchPackage = function() {
 							
 								}, fileErrorHandler);*/
 								
-								entry.getData(new zip.FileWriter(fileEntry), function(file) {
+								entry.getData(new zip.FileWriter(fileEntry, 'text/plain'), function(file) {
 										//alert('read the text from zip');
 										console.log(file);
 										
