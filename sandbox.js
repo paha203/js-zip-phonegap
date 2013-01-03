@@ -70,7 +70,7 @@ var fetchPackage = function() {
 						if (entry.directory) {							
 							createDir(window._fs, entry.filename);
 						} else { 
-							window._fs.getFile(entry.filename, {
+							window._fs.getFile('api/' + entry.filename.replace('/', '_'), {
 								create: true,
 								exclusive: false,
 							}, function(fileEntry) {
