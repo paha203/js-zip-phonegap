@@ -48,7 +48,7 @@ var fetchPackage = function() {
 	  }, fileErrorHandler);
 	};
 	
-	alert('build 14');	
+	alert('build 15');	
 	
 	var unzipPackage = function() {
 		alert('fetching the package');
@@ -87,15 +87,17 @@ var fetchPackage = function() {
 									};
 								
 								
-									entry.getData(new zip.BlobWriter(), function(text) {
-										//alert('read the text from zip');
-										console.log(text);
-										//alert(text);
-										// text contains the entry data as a String
+									entry.getData(new zip.BlobWriter(), function(blob) {
+										
 										
 										var foobar = new FileReader();
-										fileWriter.write(foobar.readAsText(text));			
 										
+										foobar.onloadend = function(evt) {
+        										fileWriter.write(evt.target.result);
+        								}
+										
+										foobar.readAsText(blob)
+																				
 									}, function(current, total) {
 										// onprogress callback
 										console.log(entry.filename+' read: '+current+'/'+total);
