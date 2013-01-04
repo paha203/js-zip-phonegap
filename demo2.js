@@ -63,9 +63,13 @@
 		
 			
 		try{
-			var b = new Blob(['ahahha'], { type: 'application/zip'})	
+			var BlobBuilder = obj.WebKitBlobBuilder || obj.MozBlobBuilder || obj.MSBlobBuilder || obj.BlobBuilder;
+			
+			var blobBuilder = new BlobBuilder();
+			blobBuilder.append('ahahahahah');
+			var blob = blobBuilder.getBlob('application/zip');
 			alert('made the blob "b"');
-			alert(b);
+			alert(blob);
 		}catch(e){
 			alert(e);
 			alert('it did not work :(');
