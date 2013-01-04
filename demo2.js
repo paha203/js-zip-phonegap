@@ -60,10 +60,11 @@
 	})();
 
 	(function() {
+		
 			
 		try{
-			var b = new Blob(['ahahha'], { type: 'application/zip'})
-			
+			var b = new Blob(['ahahha'], { type: 'application/zip'})	
+			alert('made the blob "b"');
 			alert(b);
 		}catch(e){
 			alert(e);
@@ -115,7 +116,7 @@
 			  		console.log('exception when creating blob');
 			  		console.log(e);
 			  	}
-			  
+			  console.log('made the blob', blob);
 			  // 	console.log('set blob, this.response');
 // 			  	try{
 // 			  	console.log(typeof this.response);
@@ -131,6 +132,8 @@
 				
 				fileInput.disabled = true;
 				model.getEntries(blob, function(entries) {
+					console.log('got entries:');
+					console.log(entries);
 					fileList.innerHTML = "";
 					entries.forEach(function(entry) {
 						var li = document.createElement("li");
