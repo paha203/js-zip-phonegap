@@ -191,6 +191,8 @@
 		var that = this;
 
 		function getData(callback, onerror) {
+		console.log('called getData');
+		
 			var request;
 			if (!that.data) {
 				request = new XMLHttpRequest();
@@ -209,6 +211,8 @@
 		}
 
 		function init(callback, onerror) {
+		console.log('called init');
+		
 			var request = new XMLHttpRequest();
 			request.addEventListener("load", function() {
 				that.size = Number(request.getResponseHeader("Content-Length"));
@@ -220,6 +224,8 @@
 		}
 
 		function readUint8Array(index, length, callback, onerror) {
+		console.log('called readUint8Array');
+		
 			getData(function() {
 				callback(new Uint8Array(that.data.subarray(index, index + length)));
 			}, onerror);
