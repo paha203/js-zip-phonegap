@@ -40,6 +40,8 @@ var fetchData = function() {
                                     if (filename.indexOf('json') === -1) return;
                                     console.log(filename);
 				    total++;
+				    totalElement.value = total;
+				    
 					entry.getData(new zip.Data64URIWriter(), function(text){
 						fs.getFile(filename, {create: true}, function(fileEntry) {
 							fileEntry.createWriter(function(fileWriter){								
