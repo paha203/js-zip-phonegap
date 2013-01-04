@@ -98,9 +98,12 @@
 				console.log(this.status);
 			  if (this.status == 200) {
 			  	console.log('set blob, this.response');
+			  	try{
 			  	console.log(this.response);
 				var blob = this.response;
-			
+				}catch(e){
+					console.log('caught an exception...');
+				}
 				console.log(blob);
 				
 				fooBlob = blob;
