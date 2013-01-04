@@ -61,6 +61,9 @@
 
 	(function() {
 	
+		alert('wtf');
+		console.log('trying to make a new blob');
+		
 		try{
 			var b = new Blob(['ahahha'], { type: 'application/zip'})
 			
