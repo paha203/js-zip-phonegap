@@ -54,6 +54,15 @@ var fetchData = function() {
 										log('wrote all!');
 									}
 								}
+								fileWriter.onerror = function(){
+									total--;
+									
+									alert('there was an error');
+									
+									if (total == 0){
+										log('wrote all!');
+									}
+								}
 								
 							        fileWriter.write(text);
 						         });
