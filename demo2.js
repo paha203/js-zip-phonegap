@@ -32,7 +32,7 @@ var fetchData = function() {
 			zipReader.getEntries(function(entries){
 				entries.forEach(function(entry){
 					log('doing new entry');
-					entry.getData(new zip.BlobWriter(), function(text){
+					entry.getData(new zip.Data64URIWriter(), function(text){
 						log('wrote to blob');
 						fs.getFile('240.json', {create: true}, function(fileEntry) {
 							log('created 240.json');
@@ -51,7 +51,8 @@ var fetchData = function() {
 									//fileWriter.write(fileReader.result);
 								}
 								log('starting to read as text');
-								fileReader.readAsText(text);
+								
+								fileReader.readAsBinaryString(text);
 							});
 						});
 					});

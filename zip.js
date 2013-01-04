@@ -321,7 +321,6 @@
 		var that = this, data = "", pending = "";
 
 		function init(callback) {
-			data += "data:" + (contentType || "") + ";base64,";
 			callback();
 		}
 
@@ -333,14 +332,14 @@
 			for (; i < array.length; i++)
 				pending += String.fromCharCode(array[i]);
 			if (dataString.length > 2)
-				data += obj.btoa(dataString);
+				data += (dataString);
 			else
 				pending = dataString;
 			callback();
 		}
 
 		function getData(callback) {
-			callback(data + obj.btoa(pending));
+			callback((pending));
 		}
 
 		that.init = init;
