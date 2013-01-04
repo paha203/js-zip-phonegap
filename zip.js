@@ -339,7 +339,7 @@
 		}
 
 		function getData(callback) {
-			callback((pending));
+			callback(data+(pending));
 		}
 
 		that.init = init;
