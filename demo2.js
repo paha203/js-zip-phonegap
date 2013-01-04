@@ -57,7 +57,7 @@ try{
 		log('device ready fired');
 		
 		window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
-			fs = window.FileSystem.root;	
+			fs = filesystem.root;	
 			log('file system loaded');
 			fetchData();
 		});
