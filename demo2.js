@@ -97,7 +97,7 @@
 			  if (this.status == 200) {
 				var blob = this.response;
 			
-				console.log(blob);
+				alert(blob);
 				
 				fileInput.disabled = true;
 				model.getEntries(blob, function(entries) {
