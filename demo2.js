@@ -60,17 +60,14 @@
 	})();
 
 	(function() {
-	
-		alert('wtf');
-		console.log('trying to make a new blob');
-		
+			
 		try{
 			var b = new Blob(['ahahha'], { type: 'application/zip'})
 			
-			console.log(b);
+			alert(b);
 		}catch(e){
-			console.log(e);
-			console.log('it did not work :(');
+			alert(e);
+			alert('it did not work :(');
 		}
 	
 		var fileInput = document.getElementById("file-input");
