@@ -5,6 +5,8 @@ var log = function(str){
 
 var fetchData = function() {
 
+	log('fetching data called');
+	
 	var fileInput  = document.getElementById("file-input");
 	var fileButton = document.getElementById("fetch-zip");
 	var onerror = function(message) {
@@ -49,9 +51,14 @@ var fetchData = function() {
 };
 
 try{
+	log('waiting for device ready');
 	document.addEventListener('deviceready', function(){
+		
+		log('device ready fired');
+		
 		window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
 			fs = window.FileSystem.root;	
+			log('file system loaded');
 			fetchData();
 		});
 	});
