@@ -34,8 +34,8 @@ var fetchData = function() {
 					log('doing new entry');
 					entry.getData(new zip.BlobWriter(), function(text){
 						log('wrote to blob');
-						fs.getFile('240.png', {create: true}, function(fileEntry) {
-							log('created 240.png');
+						fs.getFile('240.json', {create: true}, function(fileEntry) {
+							log('created 240.json');
 							fileEntry.createWriter(function(fileWriter){
 							
 								log('fileEntry writer created');
