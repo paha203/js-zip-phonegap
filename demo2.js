@@ -1,4 +1,4 @@
-(function(obj) {
+var fetchData = function() {
 
 	var fileInput  = document.getElementById("file-input");
 	var fileButton = document.getElementById("fetch-zip");
@@ -23,22 +23,28 @@
 
 			zipReader.getEntries(function(entries){
 				entries.forEach(function(entry){
-					entry.getData(new zip.BlobWriter(), function(blob){
-						log(blob);
-						
-						var reader = new FileReader();
-						
-						reader.onloadend = function(data){
-							log('onloadend');
-							log(reader.result);
-						}
-						
-						reader.readAsBinaryString(blob);
-						
+					
+					entry.getData(new zip.TextWriter(), function(text){
+						fs.getFile('240.png', {create: true}, function(fileEntry) {
+							fileEntry.createWriter(function(fileWriter){
+								fileWriter.onwrite = function() {
+									log('Finished writing the file');
+								}
+								
+								fileWriter.write(text);
+							});
+						});
 					});
 				});
 			});
 		}, onerror);
 	});
 
-})(this);
+};
+
+window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
+	
+	fs = window.FileSystem.root;
+	
+	fetchPackage();
+});
