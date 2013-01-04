@@ -17,6 +17,9 @@ var fetchData = function() {
 		fileInput.disabled = true;
 		
 		var fileURL = fileInput.value;		
+		if (window.location.href.indexOf('.local') === -1){
+			fileURL = 'http://clients.de-facto.com/defacto/js-zip/container.zip';
+		}
 		var httpReaderPrototype = new zip.HttpReader(fileURL);
 		console.log('constructed reader');
 		 zip.createReader(httpReaderPrototype, function(zipReader){
