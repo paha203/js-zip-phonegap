@@ -52,7 +52,7 @@ try{
 	document.addEventListener('deviceready', function(){
 		window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
 			fs = window.FileSystem.root;	
-			fetchPackage();
+			fetchData();
 		});
 	});
 } catch (e){
