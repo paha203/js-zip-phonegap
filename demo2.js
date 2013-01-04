@@ -99,6 +99,7 @@
 			  if (this.status == 200) {
 			  	console.log('set blob, this.response');
 			  	try{
+			  	console.log(typeof this.response);
 			  	console.log(this.response);
 				var blob = this.response;
 				}catch(e){
