@@ -91,6 +91,7 @@
 					model.getEntries(fileInput.value, function(entries) {
 						fileList.innerHTML = "";
 						entries.forEach(function(entry) {
+							console.log(entry);
 							var li = document.createElement("li");
 							var a = document.createElement("a");
 							a.textContent = entry.filename;
