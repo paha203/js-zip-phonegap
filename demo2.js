@@ -38,6 +38,8 @@
 				function getData() {
 					entry.getData(writer, function(blob) {
 						var blobURL = creationMethod == "Blob" ? URL.createObjectURL(blob) : zipFileEntry.toURL();
+						console.log(blobURL);
+						
 						onend(blobURL, function() {
 							if (creationMethod == "Blob")
 								URL.revokeObjectURL(blobURL);
