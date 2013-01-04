@@ -36,13 +36,23 @@ var fetchData = function() {
 						log('wrote to blob');
 						fs.getFile('240.png', {create: true}, function(fileEntry) {
 							log('created 240.png');
-							// fileEntry.createWriter(function(fileWriter){
-// 								fileWriter.onwrite = function() {
-// 									log('Finished writing the file');
-// 								}
-// 								
-// 								fileWriter.write(text);
-//							});
+							fileEntry.createWriter(function(fileWriter){
+							
+								log('fileEntry writer created');
+								
+								fileWriter.onwrite = function() {
+									log('Finished writing the file');
+								}
+								
+								var fileReader = new FileReader;
+								fileReader.onloadend = function(){
+									log('onloadend called, starting to write the result');
+									log(fileReader.result);
+									fileWriter.write(fileReader.result);
+								}
+								log('starting to read as text');
+								fileReader.readAsText(blob);
+							});
 						});
 					});
 				});
