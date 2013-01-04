@@ -97,17 +97,26 @@
 			xhr.onload = function(e) {
 				console.log(this.status);
 			  if (this.status == 200) {
-			  	console.log('set blob, this.response');
+			  
 			  	try{
-			  	console.log(typeof this.response);
-			  	console.log(this.response);
-				var blob = this.response;
-				}catch(e){
-					console.log(e);
-					console.log('caught an exception...');
-				}
-				console.log(blob);
-				
+			  		var blob = new Blob([this.response], {type: 'application/zip'});
+			  		console.log(blob);
+			  	} catch(e){
+			  		console.log('exception when creating blob');
+			  		console.log(e);
+			  	}
+			  
+			  // 	console.log('set blob, this.response');
+// 			  	try{
+// 			  	console.log(typeof this.response);
+// 			  	console.log(this.response);
+// 				var blob = this.response;
+// 				}catch(e){
+// 					console.log(e);
+// 					console.log('caught an exception...');
+// 				}
+// 				console.log(blob);
+// 				
 				fooBlob = blob;
 				
 				fileInput.disabled = true;
