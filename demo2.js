@@ -97,6 +97,8 @@
 			xhr.onload = function(e) {
 				console.log(this.status);
 			  if (this.status == 200) {
+			  	console.log('set blob, this.response');
+			  	console.log(this.response);
 				var blob = this.response;
 			
 				console.log(blob);
