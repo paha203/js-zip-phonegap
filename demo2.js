@@ -31,16 +31,18 @@ var fetchData = function() {
 
 			zipReader.getEntries(function(entries){
 				entries.forEach(function(entry){
-					
-					entry.getData(new zip.TextWriter(), function(text){
+					log('doing new entry');
+					entry.getData(new zip.BlobWriter(), function(text){
+						log('wrote to blob');
 						fs.getFile('240.png', {create: true}, function(fileEntry) {
-							fileEntry.createWriter(function(fileWriter){
-								fileWriter.onwrite = function() {
-									log('Finished writing the file');
-								}
-								
-								fileWriter.write(text);
-							});
+							log('created 240.png');
+							// fileEntry.createWriter(function(fileWriter){
+// 								fileWriter.onwrite = function() {
+// 									log('Finished writing the file');
+// 								}
+// 								
+// 								fileWriter.write(text);
+//							});
 						});
 					});
 				});
@@ -57,8 +59,10 @@ try{
 		log('device ready fired');
 		
 		window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
-			fs = filesystem.root;	
-			log('file system loaded');
+			fs = filesystem.root;
+			log(filesystem.name);	
+			log('file system is:');
+			log(fs);
 			fetchData();
 		});
 	});
