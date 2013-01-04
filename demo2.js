@@ -102,6 +102,7 @@
 			  	console.log(this.response);
 				var blob = this.response;
 				}catch(e){
+					console.log(e);
 					console.log('caught an exception...');
 				}
 				console.log(blob);
