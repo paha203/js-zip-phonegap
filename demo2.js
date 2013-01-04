@@ -87,6 +87,7 @@
 		if (typeof requestFileSystem == "undefined")
 			creationMethodInput.options.length = 1;
 		
+		function run(){
 			window.URL = window.URL || window.webkitURL;  // Take care of vendor prefixes.
 
 			var xhr = new XMLHttpRequest();
@@ -97,7 +98,9 @@
 			  if (this.status == 200) {
 				var blob = this.response;
 			
-				alert(blob);
+				console.log(blob);
+				
+				fooBlob = blob;
 				
 				fileInput.disabled = true;
 				model.getEntries(blob, function(entries) {
@@ -123,6 +126,13 @@
 			};
 			
 			xhr.send();
+		}
+		
+		setTimeout(function(){
+			console.log('running');
+			run();
+		}, 3000);
+		
 	
 	})();
 
