@@ -496,6 +496,7 @@
 	}
 
 	function inflate(reader, writer, offset, size, computeCrc32, onend, onprogress, onreaderror, onwriteerror) {
+		console.log('inflating the file...');
 		var worker, crc32 = new Crc32();
 
 		function oninflateappend(sending, array) {
@@ -507,6 +508,8 @@
 			onend(outputSize, crc32.get());
 		}
 
+		console.log('Using webWorkers? '+ obj.zip.useWebWorkers);
+		
 		if (obj.zip.useWebWorkers) {
 			worker = new Worker(obj.zip.workerScriptsPath + INFLATE_JS);
 			launchWorkerProcess(worker, reader, writer, offset, size, oninflateappend, onprogress, oninflateend, onreaderror, onwriteerror);
@@ -664,6 +667,7 @@
 		}
 
 		Entry.prototype.getData = function(writer, onend, onprogress, checkCrc32) {
+			console.log('get data called');
 			var that = this, worker;
 
 			function terminate(callback, param) {

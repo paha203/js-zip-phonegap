@@ -28,7 +28,15 @@
 			<li>
 				<label>
 					<span class="form-label">choose a zip file</span>
-					<input type="input" value="http://clients.de-facto.com/shine/container.zip" id="file-input">
+					<input type="input" value="" id="file-input">
+					<script type="text/javascript">
+						var el = document.getElementById('file-input');
+						if (window.location.href.indexOf('.local') !== -1){
+							el.value = 'http://admin.local/js-zip/container.zip';
+						} else {
+							el.value = 'http://clients.de-facto.com/shine/container.zip';
+						}
+					</script>
 <button id="fetch-zip">Fetch File</button>				</label>
 			</li>
 			<li>
