@@ -28,7 +28,7 @@
 
 		return {
 			getEntries : function(file, onend) {
-				zip.createReader(new zip.HttpReader(file), function(zipReader) {
+				zip.createReader(new zip.BlobReader(file), function(zipReader) {
 					zipReader.getEntries(onend);
 				}, onerror);
 			},
@@ -60,8 +60,7 @@
 	})();
 
 	(function() {
-		var fileInput  = document.getElementById("file-input");
-		var fileButton = document.getElementById("fetch-zip");
+		var fileInput = document.getElementById("file-input");
 		var unzipProgress = document.createElement("progress");
 		var fileList = document.getElementById("file-list");
 		var creationMethodInput = document.getElementById("creation-method-input");
@@ -85,28 +84,46 @@
 			});
 		}
 
+		if (typeof requestFileSystem == "undefined")
+			creationMethodInput.options.length = 1;
 		
-				fileButton.addEventListener('click', function() {
-					fileInput.disabled = true;
-					model.getEntries(fileInput.value, function(entries) {
-						fileList.innerHTML = "";
-						entries.forEach(function(entry) {
-							var li = document.createElement("li");
-							var a = document.createElement("a");
-							a.textContent = entry.filename;
-							a.href = "#";
-							a.addEventListener("click", function(event) {
-								if (!a.download) {
-									download(entry, li, a);
-									event.preventDefault();
-									return false;
-								}
-							}, false);
-							li.appendChild(a);
-							fileList.appendChild(li);
-						});
+			window.URL = window.URL || window.webkitURL;  // Take care of vendor prefixes.
+
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'container.zip', true);
+			xhr.responseType = 'blob';
+			
+			xhr.onload = function(e) {
+			  if (this.status == 200) {
+				var blob = this.response;
+			
+				console.log(blob);
+				
+				fileInput.disabled = true;
+				model.getEntries(blob, function(entries) {
+					fileList.innerHTML = "";
+					entries.forEach(function(entry) {
+						var li = document.createElement("li");
+						var a = document.createElement("a");
+						a.textContent = entry.filename;
+						a.href = "#";
+						a.addEventListener("click", function(event) {
+							if (!a.download) {
+								download(entry, li, a);
+								event.preventDefault();
+								return false;
+							}
+						}, false);
+						li.appendChild(a);
+						fileList.appendChild(li);
+					});
 				});
-			}, false);
+					
+			  }
+			};
+			
+			xhr.send();
+	
 	})();
 
 })(this);

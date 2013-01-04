@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +6,7 @@
 <title>Read a zip file demo</title>
 <link rel="stylesheet" href="default.css">
 <link rel="stylesheet" href="demo.css">
-<script src="http://192.168.1.99:1025/target/target-script-min.js#anonymous"></script>
-
+<link href='http://fonts.googleapis.com/css?family=Maven+Pro|Muli|Droid+Sans+Mono|Istok+Web' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -28,16 +28,8 @@
 			<li>
 				<label>
 					<span class="form-label">choose a zip file</span>
-					<input type="input" value="" id="file-input">
-					<script type="text/javascript">
-						var el = document.getElementById('file-input');
-						if (window.location.href.indexOf('.local') !== -1){
-							el.value = 'http://admin.local/js-zip/container.zip';
-						} else {
-							el.value = 'http://clients.de-facto.com/shine/container.zip';
-						}
-					</script>
-<button id="fetch-zip">Fetch File</button>				</label>
+					<input type="file" accept="application/zip" id="file-input">
+				</label>
 			</li>
 			<li>
 				<label>
@@ -57,7 +49,6 @@
 
 	</div>
 	<script type="text/javascript" src="zip.js"></script>
-
 	<script type="text/javascript" src="demo2.js"></script>
 	<script type="text/javascript">
 

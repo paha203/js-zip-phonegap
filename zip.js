@@ -496,7 +496,6 @@
 	}
 
 	function inflate(reader, writer, offset, size, computeCrc32, onend, onprogress, onreaderror, onwriteerror) {
-		console.log('inflating the file...');
 		var worker, crc32 = new Crc32();
 
 		function oninflateappend(sending, array) {
@@ -508,8 +507,6 @@
 			onend(outputSize, crc32.get());
 		}
 
-		console.log('Using webWorkers? '+ obj.zip.useWebWorkers);
-		
 		if (obj.zip.useWebWorkers) {
 			worker = new Worker(obj.zip.workerScriptsPath + INFLATE_JS);
 			launchWorkerProcess(worker, reader, writer, offset, size, oninflateappend, onprogress, oninflateend, onreaderror, onwriteerror);
@@ -549,14 +546,8 @@
 
 	function copy(reader, writer, offset, size, computeCrc32, onend, onprogress, onreaderror, onwriteerror) {
 		var chunkIndex = 0, crc32 = new Crc32();
-		console.log('copying');
-		
-		var i = 0;
-		
+
 		function step() {
-			console.log('step ' + i);
-			
-			i++;
 			var index = chunkIndex * CHUNK_SIZE;
 			if (index < size)
 				reader.readUint8Array(offset + index, Math.min(CHUNK_SIZE, size - index), function(array) {
@@ -667,7 +658,6 @@
 		}
 
 		Entry.prototype.getData = function(writer, onend, onprogress, checkCrc32) {
-			console.log('get data called');
 			var that = this, worker;
 
 			function terminate(callback, param) {
@@ -694,12 +684,10 @@
 			}
 
 			function onreaderror() {
-				console.log('error happened when reading');
 				terminate(onerror, ERR_READ_DATA);
 			}
 
 			function onwriteerror() {
-				console.log('error happened writing');
 				terminate(onerror, ERR_WRITE_DATA);
 			}
 
@@ -715,7 +703,6 @@
 				});
 				dataOffset = that.offset + 30 + that.filenameLength + that.extraFieldLength;
 				writer.init(function() {
-					console.log('should be uncompressing now');
 					if (that.compressionMethod === 0)
 						copy(reader, writer, dataOffset, that.compressedSize, checkCrc32, getWriterData, onprogress, onreaderror, onwriteerror);
 					else
