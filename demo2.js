@@ -45,13 +45,13 @@ var fetchData = function() {
 								}
 								
 								var fileReader = new FileReader;
-								fileReader.onloadend = function(){
-									log('onloadend called, starting to write the result');
+								fileReader.onload = function(){
+									log('onload called, starting to write the result');
 									log(fileReader.result);
 									fileWriter.write(fileReader.result);
 								}
 								log('starting to read as text');
-								fileReader.readAsText(blob);
+								fileReader.readAsText(text);
 							});
 						});
 					});
