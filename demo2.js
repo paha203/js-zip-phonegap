@@ -6,8 +6,11 @@
 		alert(message);
 	}
 
+var i = 0;
+
 	function createTempFile(callback) {
-		var tmpFilename = "tmp.dat";
+		var tmpFilename = i+"tmp.dat";
+		i++;
 		requestFileSystem(TEMPORARY, 4 * 1024 * 1024 * 1024, function(filesystem) {
 			function create() {
 				filesystem.root.getFile(tmpFilename, {
@@ -94,20 +97,19 @@
 					model.getEntries(fileInput.value, function(entries) {
 						fileList.innerHTML = "";
 						entries.forEach(function(entry) {
-							console.log(entry);
-							var li = document.createElement("li");
-							var a = document.createElement("a");
-							a.textContent = entry.filename;
-							a.href = "#";
-							a.addEventListener("click", function(event) {
-								if (!a.download) {
-									download(entry, li, a);
-									event.preventDefault();
-									return false;
-								}
-							}, false);
-							li.appendChild(a);
-							fileList.appendChild(li);
+						
+							model.getEntryFile(entry, creationMethodInput.value, function(blobURL, revokeBlobURL) {
+								
+								var li = document.createElement("li");
+								var a = document.createElement("a");
+								a.textContent = entry.filename;
+								a.href = blobURL;
+								li.appendChild(a);
+								fileList.appendChild(li);
+							});
+										
+						
+							
 						});
 				});
 			}, false);
