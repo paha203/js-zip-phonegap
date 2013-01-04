@@ -9,7 +9,7 @@
 var i = 0;
 
 	function createTempFile(callback) {
-		var tmpFilename = i+"tmp.dat";
+		var tmpFilename = i+"tmp.png";
 		i++;
 		requestFileSystem(TEMPORARY, 4 * 1024 * 1024 * 1024, function(filesystem) {
 			function create() {
