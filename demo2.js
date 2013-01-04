@@ -1,3 +1,8 @@
+var log = function(str){
+	alert(str);
+	console.log(str);
+}
+
 var fetchData = function() {
 
 	var fileInput  = document.getElementById("file-input");
@@ -5,12 +10,10 @@ var fetchData = function() {
 	var onerror = function(message) {
 		alert(message);
 	}
-	var log = function(str){
-		alert(str);
-		console.log(str);
-	}
+	
 
 	fileButton.addEventListener('click', function() {
+		log('clicked');
 		fileInput.disabled = true;
 		
 		var fileURL = fileInput.value;		
@@ -42,9 +45,12 @@ var fetchData = function() {
 
 };
 
-window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
-	
-	fs = window.FileSystem.root;
-	
-	fetchPackage();
-});
+try{
+	window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
+		fs = window.FileSystem.root;
+		
+		fetchPackage();
+	});
+} catch (e){
+	log(e);
+}
