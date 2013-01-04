@@ -192,7 +192,7 @@
 
 		function getData(callback, onerror) {
 		console.log('called getData');
-		
+
 			var request;
 			if (!that.data) {
 				request = new XMLHttpRequest();
@@ -212,7 +212,7 @@
 
 		function init(callback, onerror) {
 		console.log('called init');
-		
+
 			var request = new XMLHttpRequest();
 			request.addEventListener("load", function() {
 				that.size = Number(request.getResponseHeader("Content-Length"));
@@ -225,7 +225,7 @@
 
 		function readUint8Array(index, length, callback, onerror) {
 		console.log('called readUint8Array');
-		
+
 			getData(function() {
 				callback(new Uint8Array(that.data.subarray(index, index + length)));
 			}, onerror);
@@ -553,12 +553,12 @@
 	function copy(reader, writer, offset, size, computeCrc32, onend, onprogress, onreaderror, onwriteerror) {
 		var chunkIndex = 0, crc32 = new Crc32();
 		console.log('copying');
-		
+
 		var i = 0;
-		
+
 		function step() {
 			console.log('step ' + i);
-			
+
 			i++;
 			var index = chunkIndex * CHUNK_SIZE;
 			if (index < size)
@@ -738,7 +738,7 @@
 				onerror(ERR_READ);
 			});
 		}
-		
+
 		return {
 			getEntries : function(callback) {
 				if (reader.size < 22) {
@@ -998,7 +998,7 @@
 			}, onerror);
 		},
 		workerScriptsPath : "",
-		useWebWorkers : true
+		useWebWorkers : false
 	};
 
 })(this);
