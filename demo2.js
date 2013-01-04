@@ -92,7 +92,7 @@
 
 			var xhr = new XMLHttpRequest();
 			xhr.open('GET', 'container.zip', true);
-			xhr.responseType = 'blob';
+			//xhr.responseType = 'blob';
 			
 			xhr.onload = function(e) {
 				console.log(this.status);
