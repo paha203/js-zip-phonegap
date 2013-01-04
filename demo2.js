@@ -60,6 +60,16 @@
 	})();
 
 	(function() {
+	
+		try{
+			var b = new Blob(['ahahha'], { type: 'application/zip'})
+			
+			console.log(b);
+		}catch(e){
+			console.log(e);
+			console.log('it did not work :(');
+		}
+	
 		var fileInput = document.getElementById("file-input");
 		var unzipProgress = document.createElement("progress");
 		var fileList = document.getElementById("file-list");
