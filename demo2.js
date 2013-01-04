@@ -98,6 +98,8 @@ var i = 0;
 						fileList.innerHTML = "";
 						entries.forEach(function(entry) {
 						
+							try{
+							
 							model.getEntryFile(entry, creationMethodInput.value, function(blobURL, revokeBlobURL) {
 								
 								var li = document.createElement("li");
@@ -108,7 +110,9 @@ var i = 0;
 								fileList.appendChild(li);
 							});
 										
-						
+							} catch (e){
+								alert(e);
+							}
 							
 						});
 				});
