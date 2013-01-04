@@ -95,6 +95,7 @@
 			xhr.responseType = 'blob';
 			
 			xhr.onload = function(e) {
+				console.log(this.status);
 			  if (this.status == 200) {
 				var blob = this.response;
 			
