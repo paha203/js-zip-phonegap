@@ -20,7 +20,7 @@ var fetchData = function() {
 		
 		var fileURL = fileInput.value;		
 		if (window.location.href.indexOf('.local') === -1){
-			fileURL = 'http://clients.de-facto.com/defacto/js-zip/container.zip';
+			fileURL = 'http://clients.de-facto.com/defacto/js-zip/package.zip';
 		}
 		var httpReaderPrototype = new zip.HttpReader(fileURL);
 		console.log('constructed reader');
@@ -28,32 +28,33 @@ var fetchData = function() {
 		 
 			log('Created the zip reader');
 			log('File url is: '+fileURL);
+			
+			var totalElement = document.getElementById('total');
 
 			zipReader.getEntries(function(entries){
+			    var total = 0;
+			    
 				entries.forEach(function(entry){
-					log('doing new entry');
+                                    if(entry.directory) return;
+                                    var filename = entry.filename.replace(/\//g, '-');
+                                    if (filename.indexOf('json') === -1) return;
+                                    console.log(filename);
+				    total++;
 					entry.getData(new zip.Data64URIWriter(), function(text){
-						log('wrote to blob');
-						fs.getFile('240.json', {create: true}, function(fileEntry) {
-							log('created 240.json');
-							fileEntry.createWriter(function(fileWriter){
-							
-								log('fileEntry writer created');
-								
+						fs.getFile(filename, {create: true}, function(fileEntry) {
+							fileEntry.createWriter(function(fileWriter){								
 								fileWriter.onwrite = function() {
-									log('Finished writing the file');
+									total--;
+								    
+								    totalElement.value = total;
+								    
+									if (total == 0){
+										log('wrote all!');
+									}
 								}
 								
-								var fileReader = new FileReader;
-								fileReader.onload = function(){
-									log('onload called, starting to write the result');
-									//log(fileReader.result);
-									//fileWriter.write(fileReader.result);
-								}
-								log('starting to read as text');
-								
-								fileReader.readAsBinaryString(text);
-							});
+							        fileWriter.write(text);
+						         });
 						});
 					});
 				});
