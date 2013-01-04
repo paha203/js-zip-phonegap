@@ -546,8 +546,14 @@
 
 	function copy(reader, writer, offset, size, computeCrc32, onend, onprogress, onreaderror, onwriteerror) {
 		var chunkIndex = 0, crc32 = new Crc32();
-
+		console.log('copying');
+		
+		var i = 0;
+		
 		function step() {
+			console.log('step ' + i);
+			
+			i++;
 			var index = chunkIndex * CHUNK_SIZE;
 			if (index < size)
 				reader.readUint8Array(offset + index, Math.min(CHUNK_SIZE, size - index), function(array) {
