@@ -57,6 +57,7 @@ var fetchData = function() {
 								fileWriter.onerror = function(){
 									total--;
 									
+									alert(text);
 									alert('there was an error:'+fileWriter.error.code+' for file: '+filename);
 								
 									if (total == 0){
