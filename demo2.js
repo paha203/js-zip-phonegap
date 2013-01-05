@@ -57,15 +57,15 @@ var fetchData = function() {
 								fileWriter.onerror = function(){
 									total--;
 									
-									alert('there was an error');
-									
+									alert('there was an error:'+fileWriter.error.code+' for file: '+filename);
+								
 									if (total == 0){
 										log('wrote all!');
 									}
 								}
 								
 							        fileWriter.write(text);
-						         });
+							});
 						});
 					});
 				});
