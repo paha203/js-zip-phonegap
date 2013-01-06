@@ -117,9 +117,13 @@ PackageManager.prototype.update = function(action){
 
             that.fire('install-before');
 
+            var counter = 1;
+
             // Write the files
             entries.forEach(function(entry){
 
+               counter++;
+               var mod = counter%100;
                setTimeout((function(e){
                     return function(){
                         var entry = e;
@@ -206,7 +210,7 @@ PackageManager.prototype.update = function(action){
                             });
                         });
                     }
-                })(entry), 50);
+                })(entry), (1000 * mod) + 50);
 
             });
 

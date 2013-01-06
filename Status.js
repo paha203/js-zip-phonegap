@@ -44,7 +44,7 @@ Status.prototype.showExtractStart = function(){
     this.writeConsole('Extracting...');
 }
 Status.prototype.showExtractProgress = function(progress){
-    this.writeConsole('Extracted '+progress.complete+'/'+progress.total+'( '+(progress.complete/progress.total*100)+'%)');
+    this.writeConsole('Reading entries into memory '+progress.complete+'/'+progress.total+'( '+(progress.complete/progress.total*100)+'%)');
 }
 Status.prototype.showExtractComplete = function(){
     this.writeConsole('Finished extracting');
