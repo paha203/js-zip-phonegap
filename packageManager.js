@@ -161,28 +161,34 @@ PackageManager.prototype.update = function(action){
                                         }
                                     }
 
-                                    setTimeout(function(){
+                                    setTimeout((function(fw){
+                                        var fileWriter = fw;
 
-                                        try{
+                                        return function(){
+
+                                            try{
 
 
-                                            fileWriter.write(text);
+                                                console.log(fileWriter);
 
-                                        }catch(e){
-                                            progress.complete++;
+                                                fileWriter.write(text);
 
-                                            summary.errors.push({
-                                                error: e,
-                                                entry: entry
-                                            });
-                                            that.fire('install-progress', progress);
+                                            }catch(e){
+                                                progress.complete++;
 
-                                            if (progress.complete === progress.total){
-                                                that.fire('install-after', summary);
+                                                summary.errors.push({
+                                                    error: e,
+                                                    entry: entry
+                                                });
+                                                that.fire('install-progress', progress);
+
+                                                if (progress.complete === progress.total){
+                                                    that.fire('install-after', summary);
+                                                }
                                             }
-                                        }
 
-                                    }, 50);
+                                        };
+                                    })(fileWriter), 50);
 
                                 }, function(){
                                     // error on createWriter

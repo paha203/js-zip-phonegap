@@ -9,8 +9,10 @@ document.addEventListener('deviceready', function(){
 
     log('device ready fired');
 
-//    window.webkitRequestFileSystem(LocalFileSystem.PERSISTENT, 1024 * 1024 * 1024 * 5, function(filesystem){
-    window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
+    var requestFileSystem = webkitRequestFileSystem || mozRequestFileSystem || requestFileSystem;
+
+    //requestFileSystem(TEMPORARY, 1024 * 1024 * 1024 * 5, function(filesystem){
+    requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
         fs = filesystem.root;
         log('filesystem name is: '+filesystem.name);
         controller = new Controller(view);
