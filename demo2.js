@@ -9,7 +9,7 @@ document.addEventListener('deviceready', function(){
 
     log('device ready fired');
 
-    var requestFileSystem = webkitRequestFileSystem || mozRequestFileSystem || requestFileSystem;
+    //var requestFileSystem = webkitRequestFileSystem || mozRequestFileSystem || requestFileSystem;
 
     //requestFileSystem(TEMPORARY, 1024 * 1024 * 1024 * 5, function(filesystem){
     requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(filesystem){
