@@ -139,7 +139,7 @@ PackageManager.prototype.update = function(action){
 
                         entry.getData(new zip.Data64URIWriter(), function(text){
 
-                            fs.getFile(filename, {create: true}, function(fileEntry) {
+                            fs.getFile(filename, {create: true, exclusive: false}, function(fileEntry) {
 
                                 fileEntry.createWriter(function(fileWriter){
                                     fileWriter.onwrite = function() {
@@ -197,9 +197,12 @@ PackageManager.prototype.update = function(action){
 
                                 }, function(){
                                     // error on createWriter
+                                    alert('error on createWriter');
                                 });
                             }, function(){
                                 // error on getFile
+
+                                alert('error on getFile');
                             });
                         });
                     }

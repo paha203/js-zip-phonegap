@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b81e775-0e11-44b6-8ccf-e12c58424c4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller.js" afterPath="$PROJECT_DIR$/Controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/package/version" afterPath="$PROJECT_DIR$/api/package/version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2.js" afterPath="$PROJECT_DIR$/demo2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packageManager.js" afterPath="$PROJECT_DIR$/packageManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zip.js" afterPath="$PROJECT_DIR$/zip.js" />
     </list>
     <ignored path="js-zip.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,22 +22,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="packageManager.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="packageManager.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packageManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="0" selection-start="3499" selection-end="3499" vertical-scroll-proportion="-8.961538">
+            <state line="141" column="80" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.5168196">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inflate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inflate.js">
+      <file leaf-file-name="Status.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Status.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="490" column="0" selection-start="19516" selection-end="19516" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="58" column="57" selection-start="1885" selection-end="1885" vertical-scroll-proportion="-12.538462">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo2.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="demo2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="0.15441176">
+            <state line="7" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,10 +131,10 @@
         <option value="$PROJECT_DIR$/Status.js" />
         <option value="$PROJECT_DIR$/inflate.js" />
         <option value="$PROJECT_DIR$/zip.js" />
-        <option value="$PROJECT_DIR$/packageManager.js" />
         <option value="$PROJECT_DIR$/api/package/version" />
         <option value="$PROJECT_DIR$/Controller.js" />
         <option value="$PROJECT_DIR$/demo2.js" />
+        <option value="$PROJECT_DIR$/packageManager.js" />
       </list>
     </option>
   </component>
@@ -346,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Status.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="574" selection-end="574" vertical-scroll-proportion="-9.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="2" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
@@ -379,13 +365,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1555" column="21" selection-start="27566" selection-end="27576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packageManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="3499" selection-end="3499" vertical-scroll-proportion="-8.961538">
           <folding />
         </state>
       </provider>
@@ -429,7 +408,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="0.15441176">
+        <state line="7" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="57" selection-start="1885" selection-end="1885" vertical-scroll-proportion="-12.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packageManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="80" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.5168196">
           <folding />
         </state>
       </provider>
