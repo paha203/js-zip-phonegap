@@ -6,7 +6,7 @@ Controller.prototype.update = function(){
     var status = this.status;
 
         packageManager = new PackageManager({
-            serverPackageVersionUrl: 'api/package/version',
+            serverPackageVersionUrl: 'http://clients.de-facto.com/defacto/js-zip/api/package/version',
             fileSystem: fs
         });
 
