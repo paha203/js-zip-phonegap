@@ -1,5 +1,5 @@
 log = function(str){
-    console.log(str);
+    alert(str);
 }
 
 log('waiting for device ready');
