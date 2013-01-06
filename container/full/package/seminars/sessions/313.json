@@ -1,0 +1,39 @@
+{
+  "id":313,
+  "name":"Sensible low energy design: using Passivhaus design principles in self-build",
+  "time":"16.30 &ndash; 18.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session examines how Passivhaus design principles including orientation, size, super-insulation, air tightness and mechanical ventilation and heat recovery systems - can produce a comfortable home which requires minimal heating. With a focus on practical learning case study examples, this session highlights some techniques and lessons from previous self-build projects as well as a system-build model.",
+  "presentations":[
+    {
+      "id":1077,
+      "name":"Why choose Passivhaus?",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Jon Bootland, Chief Executive, Passivhaus Trust"
+    },
+    {
+      "id":1078,
+      "name":"Timber Passivhaus: techniques &amp; practical learning",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Mike Whitfield, Principal, Mike Whitfield Constructions Ltd"
+    },
+    {
+      "id":1079,
+      "name":"Leaving the tree-house for The Orchard: from zero carbon to Passivhaus",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Will Anderson, Freelance writer, Researcher and self-builder"
+    },
+    {
+      "id":1080,
+      "name":"System-build approach to Passivhaus self-build",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Tony Hills, Self-Builder, Inverness<br \/>Christian Wittke, Passivhaus Consultant, Hanse Haus"
+    },
+    {
+      "id":1084,
+      "name":"Specifying biomass in self-build homes",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Andy Matthews, Training Manager, HETAS"
+    }
+  ]
+}

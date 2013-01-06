@@ -1,0 +1,75 @@
+{
+  "id":29,
+  "name":"Water, waste and materials",
+  "description":"It has long been recognised that limits to resources are and will be a major global challenge, exacerbated by population growth and increasing urbanisation. There are issues at all levels to be considered in terms of obtainable resources and their efficient and fair use. This seminar stream will explore a range of approaches relating to resource stewardship in terms of water, waste and materials cycles which can contribute to achieving this goal as many of these are in the hands of built environment professionals and investors in both the private and public sector.",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":328,
+          "time":"10.45 &ndash; 12.15",
+          "name":"Operational waste - how to reduce it, how to handle it and how to reuse it"
+        },
+        {
+          "id":329,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Getting the sustainability brief right for responsible resource use and management"
+        },
+        {
+          "id":330,
+          "time":"14.15 &ndash; 15.30",
+          "name":"SuDs masterclass - an opportunity to enhance urban design"
+        },
+        {
+          "id":331,
+          "time":"15.45 &ndash; 17.00",
+          "name":"Designing for resource efficiency"
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":332,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Zero water developments - achieving the ideal"
+        },
+        {
+          "id":333,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Responsible water use - demand management risk and the design and maintenance of water recycling systems"
+        },
+        {
+          "id":334,
+          "time":"14.30 &ndash; 16.00",
+          "name":"Materials - responsible sourcing of construction products: drivers and principles"
+        },
+        {
+          "id":335,
+          "time":"16.30 &ndash; 18.00",
+          "name":"Water regulations, planning controls and design strategies"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":336,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Embodied impacts and responsible sourcing - asking the right questions, developing a common language"
+        },
+        {
+          "id":338,
+          "time":"14.15 &ndash; 15.45",
+          "name":"SuDs masterclass - water management and maintenance"
+        }
+      ]
+    }
+  ]
+}

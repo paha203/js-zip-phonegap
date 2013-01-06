@@ -1,0 +1,80 @@
+{
+  "id":33,
+  "name":"Refurbishing Britain",
+  "description":"It is estimated that at least 70% of the UK&rsquo;s housing stock likely to exist in 2050 has already been built. Three-quarters of these existing dwellings were built before 1975 with 25% built before 1919. Furthermore 65% of houses are owner-occupied. Buildings emit 44% of the UK&rsquo;s entire greenhouse gases with 27% coming from homes and 17% from other buildings. The Climate Change Act required that an 80% reduction in greenhouse gases on 1990 levels is achieved by 2050 with 30% achieved by 2020. The EU 2050 Building Sector targets require an 88-91% reduction on 1990 levels by 2050. The only way these targets can be met is by refurbishing and retrofitting buildings on an individual, neighbourhood and city wide scale.",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":368,
+          "time":"10.45 &ndash; 12.15",
+          "name":"Retrofit 2050: lessons for city scale implementation"
+        },
+        {
+          "id":369,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Effective retrofit \u2013what is the right strategy?"
+        },
+        {
+          "id":370,
+          "time":"14.15 &ndash; 15.30",
+          "name":"The Green Deal \u2013 from debate to delivery"
+        },
+        {
+          "id":371,
+          "time":"15.45 &ndash; 17.00",
+          "name":"Masterclass: how to treat traditional windows and solid walls"
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":372,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Holistic low carbon neighbourhood refurbishment"
+        },
+        {
+          "id":373,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Retrofit and refurbishment of traditional buildings and those in conservation areas"
+        },
+        {
+          "id":374,
+          "time":"14.30 &ndash; 16.00",
+          "name":"Green deal, or no deal?"
+        },
+        {
+          "id":375,
+          "time":"16.30 &ndash; 18.00",
+          "name":"Masterclass: Hard to Treat Homes \u2013 lessons from the CALEBRE (Consumer-Appealing Low Energy technologies for Building REtrofitting) research project"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":376,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Successful retrofit strategies for big buildings"
+        },
+        {
+          "id":377,
+          "time":"12.30 &ndash; 14.00",
+          "name":"The retrofit performance gap \u2013 how big is it?"
+        },
+        {
+          "id":378,
+          "time":"14.15 &ndash; 15.45",
+          "name":"Existing dwellings \u2013 what should the retrofit standard be?"
+        }
+      ]
+    }
+  ]
+}

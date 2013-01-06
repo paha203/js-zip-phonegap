@@ -1,0 +1,24 @@
+{
+  "id":95,
+  "name":"Lessons from the past",
+  "time":"13.00 &ndash; 14.00",
+  "location":"Mezzanine",
+  "description":"Hosted by: Professor Herbert Girardet, Co-Founder of the World Future Council and Author",
+  "speakers":[
+    {
+      "id":1499,
+      "name":"Justin Bere",
+      "occupation":"Director, Bere Architects"
+    },
+    {
+      "id":1279,
+      "name":"Gerard Evenden",
+      "occupation":"Foster and Partners"
+    },
+    {
+      "id":1281,
+      "name":"Bill Dunster",
+      "occupation":"OBE, Principal, ZEDFactory"
+    }
+  ]
+}

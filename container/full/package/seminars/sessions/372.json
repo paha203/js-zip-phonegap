@@ -1,0 +1,39 @@
+{
+  "id":372,
+  "name":"Holistic low carbon neighbourhood refurbishment",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"While the arguments for retrofitting individual buildings are well rehearsed there are many more opportunities for carbon savings at the neighbourhood level. Measures impractical at an individual building scale can be deployed over neighbourhoods. It enables all the resources coming into and going out of communities to be looked at as one so that waste arisings from one part can be reused for another. It enables everyone, other than the pioneers and early adopters, to be engaged so that energy savings are not lost on increases in use. It also maximises the economic and regeneration potential of retrofit.",
+  "presentations":[
+    {
+      "id":1277,
+      "name":"The carbon co-op, a community green deal and more",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Charlie Baker, Urbed, Manchester"
+    },
+    {
+      "id":1278,
+      "name":"Working at scale - opportunities for an area based approach",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Richard Baines, Director of Sustainable Development, Black Country Housing Group"
+    },
+    {
+      "id":1279,
+      "name":"District energy and local generation",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Michael King, Director, District Energy Development Ltd"
+    },
+    {
+      "id":1280,
+      "name":"Crouch Hill Community Park - Community Scale Refurbishment",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Rafael Marks, Associate, Penoyre &amp; Prasad Architects"
+    },
+    {
+      "id":1281,
+      "name":"The Haringey Carbon Commitment: creating borough wide sustainable neighbourhood economies through retrofit, CHP and prosperity",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Elizabeth Cox, Head of Connected Economies, New Economics Foundation"
+    }
+  ]
+}

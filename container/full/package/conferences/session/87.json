@@ -1,0 +1,29 @@
+{
+  "id":87,
+  "name":"The self-sufficient city \u2013 integrating food production into buildings",
+  "time":"11.00 &ndash; 12.00",
+  "location":"Platinum Suite 2",
+  "description":"",
+  "speakers":[
+    {
+      "id":1655,
+      "name":"Rosie Boycott",
+      "occupation":"Chair, London Food Board"
+    },
+    {
+      "id":1262,
+      "name":"Kath Dalmeny",
+      "occupation":"Policy Director, Sustain"
+    },
+    {
+      "id":1327,
+      "name":"Michele Brunello",
+      "occupation":"Partner, Stefano Boeri Architetti"
+    },
+    {
+      "id":1328,
+      "name":"Jason Prior",
+      "occupation":"Chief Executive, Buildings and Places, AECOM"
+    }
+  ]
+}

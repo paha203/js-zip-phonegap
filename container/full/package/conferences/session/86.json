@@ -1,0 +1,34 @@
+{
+  "id":86,
+  "name":"Beating the performance gap - regulate or educate?",
+  "time":"12.15 &ndash; 13.15",
+  "location":"Ecobuild Arena",
+  "description":"As building regulations approach, economic and practical limits ensuring what is designed delivers on the ground becomes crucial. This is a debate on how this could be achieved.",
+  "speakers":[
+    {
+      "id":1663,
+      "name":"Rt. Hon. Don Foster",
+      "occupation":"MP, Parliamentary Under Secretary of State, Department for Communities and Local Government"
+    },
+    {
+      "id":1257,
+      "name":"Jack Pringle",
+      "occupation":"Chair,  Construction Industry Council (CIC)"
+    },
+    {
+      "id":1260,
+      "name":"John Tebbit",
+      "occupation":"Deputy Chief Executive, Construction Products Association (CPA)"
+    },
+    {
+      "id":1261,
+      "name":"Pete Halsall",
+      "occupation":"Chair, Good Homes Alliance"
+    },
+    {
+      "id":1390,
+      "name":"Bill Bordass",
+      "occupation":"Research & Policy Adviser, Usable Buildings Trust"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id":347,
+  "name":"Water Sensitive Urban Design (WSUD) - putting the business case into practice. A masterclass with Professor Tony Wong",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"\"Current systems cater for water supply and waste disposal, without any focus on recycling water, storm-water collection or incoporating ecological solutions. Supported by access to water, the greening of cities will enhance their biodiversity and urban heat management. The CRC will work directly with government and communities to implement sustainable water management solutions.\" Tony Wong",
+  "presentations":[
+    {
+      "id":1194,
+      "name":"International case study",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Professor Tony Wong, Chief Executive Officer, the Cooperative Research Centre for Water Sensitive Cities"
+    },
+    {
+      "id":1195,
+      "name":"UK Case Study",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Celeste Morgan, Sustainability Director, AECOM NW"
+    },
+    {
+      "id":1196,
+      "name":"Project for a group area visioning exercise",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Peter Wilder, Wilder Associates"
+    }
+  ]
+}

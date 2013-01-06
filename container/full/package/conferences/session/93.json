@@ -1,0 +1,24 @@
+{
+  "id":93,
+  "name":"Sustainable design should be irresistible design",
+  "time":"11.15 &ndash; 12.15",
+  "location":"Mezzanine",
+  "description":"Hosted by: Angela Brady, President, Royal Institute of British Architects (RIBA)",
+  "speakers":[
+    {
+      "id":1276,
+      "name":"Louis Becker",
+      "occupation":"International Director and Partner, Henning Larsen"
+    },
+    {
+      "id":1507,
+      "name":"Annie Chu",
+      "occupation":"Founding Principal, CHU+GOODING Architects"
+    },
+    {
+      "id":1322,
+      "name":"Additional speakers to be confirmed",
+      "occupation":"(tbc)"
+    }
+  ]
+}

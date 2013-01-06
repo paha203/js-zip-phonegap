@@ -1,0 +1,33 @@
+{
+  "id":340,
+  "name":"The biophilic city - integrating nature into urban design",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Cities - rural villages in the beginning - have been in existence for only about ten thousand years, and then, for most of the ensuing time for only a very small percentage of the population...in creating them we have carelessly left out part of the environment vital to the full potential development of the human mind....frequent exposure to the natural world improves mental health, it offers a deep sense of inner peace and, in many ways we have only begun to understand by scientific reason, it improves the quality of life. Edward O. Wilson, Foreword to 'Biophilic Cities'",
+  "presentations":[
+    {
+      "id":1174,
+      "name":"Why &#039;biophilia&#039; is the key to sustainable cities",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Professor Timothy Beatley, Teresa Heinz Professor of Sustainable Communities, University of Virginia and Author of &#039;Biophilic Cities&#039;"
+    },
+    {
+      "id":1175,
+      "name":"The role of trees in biophilic cities",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Martin Kelly, Chair, Trees &amp; Design Action Group and Land Planning Director, Capita Symonds"
+    },
+    {
+      "id":1176,
+      "name":"Urban greening and urban air quality",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Professor Rob MacKenzie, Professor of Atmospheric Science, University of Birmingham"
+    },
+    {
+      "id":1177,
+      "name":"The wider economic role of nature in the city",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Tim Sunderland, Environmental Economist, Natural England"
+    }
+  ]
+}

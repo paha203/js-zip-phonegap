@@ -1,0 +1,45 @@
+{
+  "id":375,
+  "name":"Masterclass: Hard to Treat Homes \u2013 lessons from the CALEBRE (Consumer-Appealing Low Energy technologies for Building REtrofitting) research project",
+  "time":"16.30 &ndash; 18.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"CALEBRE &ndash; 'Consumer-Appealing Low Energy technologies for Building Retrofitting' &ndash; is a &pound;2 million research project, funded jointly by Research Councils UK Energy Programme and E.ON specifically targeted at solid-wall properties (classified as 'hard-to-treat') www.calebre.org.uk. The project aims to establish a validated, comprehensive refurbishment package for reducing UK domestic carbon emissions that is acceptable and appealing to householders.Several members of the CALEBRE team will be at the seminar and the session is designed to allow 30 minutes for questions and answers.",
+  "presentations":[
+    {
+      "id":1289,
+      "name":"Project overview",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Dennis Loveday, Principal Investigator, Project CALEBRE"
+    },
+    {
+      "id":1290,
+      "name":"Heat pumps",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Bob Critoph, Warwick University<br \/>Professor Neil Hewitt, Ulster University"
+    },
+    {
+      "id":1291,
+      "name":"Vacuum glazing for window replacement",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Philip Earnes, Loughborough University<br \/>Dr Trevor Hyde, Ulster University"
+    },
+    {
+      "id":1292,
+      "name":"Finding from field trials",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Mark Gillot, Nottingham University"
+    },
+    {
+      "id":1293,
+      "name":"Future climate modelling: the correct order to retrofit",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Philip Banfill, Heriot Watt"
+    },
+    {
+      "id":1294,
+      "name":"Householder perspective \u2013 appetite for improvement and tolerance for change",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Victoria Haines, Loughborough University"
+    }
+  ]
+}

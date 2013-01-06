@@ -1,0 +1,19 @@
+{
+  "id":101,
+  "name":"Water sensitive urban design",
+  "time":"14.45 &ndash; 15.45",
+  "location":"Mezzanine",
+  "description":"Hosted by: Celeste Morgan, Director, Sustainability, Aecom",
+  "speakers":[
+    {
+      "id":1294,
+      "name":"Professor Tony Wong",
+      "occupation":"Chief Executive Officer, the Cooperative Research Centre for Water Sensitive Cities"
+    },
+    {
+      "id":1295,
+      "name":"Sue Illman",
+      "occupation":"President, Landscape Institute"
+    }
+  ]
+}

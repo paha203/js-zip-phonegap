@@ -1,0 +1,33 @@
+{
+  "id":387,
+  "name":"Designing more productive environments",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Design can affect more than just a building&rsquo;s basic functions &ndash; users require certain levels of comfort &ndash; and perceived comfort.&nbsp; They also require the design team to consider how the building is going to be used, so that the end result achieves an environment which is fully conducive to its end purpose. This session focuses on design issues for both individual and collective needs; designing for health; schools; and workplaces which lend themselves to productive working.",
+  "presentations":[
+    {
+      "id":1333,
+      "name":"Designing for individual and collective needs",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"John McRae, Director, ORMS Architecture Design"
+    },
+    {
+      "id":1334,
+      "name":"Designing for health",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Dave Shaw, Deputy Director of Services, Teenage Cancer Trust"
+    },
+    {
+      "id":1335,
+      "name":"Sustainable design for schools",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Speaker to be confirmed, tbc"
+    },
+    {
+      "id":1336,
+      "name":"Designing workplaces for productivity",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Speaker to be confirmed, tbc"
+    }
+  ]
+}

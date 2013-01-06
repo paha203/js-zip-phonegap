@@ -1,0 +1,29 @@
+{
+  "id":91,
+  "name":"Embodied energy - time for regulation?",
+  "time":"15.15 &ndash; 16.15",
+  "location":"Platinum Suite 2",
+  "description":"As operational energy use approaches zero, embodied energy forms the biggest proportion of a building's carbon footprint. Should whole life carbon calculations be compulsory?This will be a panel debate.",
+  "speakers":[
+    {
+      "id":1270,
+      "name":"Professor Brian Norton",
+      "occupation":"President, Dublin Institute of Technology, Dublin Energy Lab"
+    },
+    {
+      "id":1271,
+      "name":"Jeff Maxted",
+      "occupation":"Technical Director, BLP Insurance"
+    },
+    {
+      "id":1322,
+      "name":"Additional speakers to be confirmed",
+      "occupation":"(tbc)"
+    },
+    {
+      "id":1651,
+      "name":"Peter Bonfield",
+      "occupation":"Chief Executive, BRE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id":412,
+  "name":"Making the most of low and zero carbon energy technologies in buildings",
+  "time":"14.30 &ndash; 16.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session looks at some new technological advances in products which produce low and zero carbon energy in buildings.&nbsp; It highlights building integrated energy solutions; the importance of designing in low and zero carbon technologies at the early design stages; and some specific strategies for harnessing &ldquo;free cooling&rdquo; technologies.",
+  "presentations":[
+    {
+      "id":1420,
+      "name":"Free-cooling strategies",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Guy Nevill, Senior Partner, Max Fordham"
+    },
+    {
+      "id":1421,
+      "name":"Solar trombe walls",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Speaker to be confirmed, tbc"
+    },
+    {
+      "id":1422,
+      "name":"Building-integrated renewable energy technologies",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"David Coyne, Managing Director, Res Inbuilt"
+    },
+    {
+      "id":1423,
+      "name":"Integrating low and zero carbon technologies at early design stage",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Andrew Eastwell, Chief Executive, BSRIA<br \/>Regis Lecussan, Chief Executive, RayCREATIS"
+    }
+  ]
+}

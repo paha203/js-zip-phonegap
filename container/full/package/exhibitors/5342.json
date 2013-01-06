@@ -1,0 +1,35 @@
+{
+  "id":5342,
+  "name":"Eltek",
+  "stands":"S3150",
+  "url":"http:\/\/www.eltekvalere.com",
+  "description":"Eltek is a world leader in high-efficiency power electronics and energy conversion. As a global corporation, Eltek has customers in more than 100 countries across a variety of industries including telecom, rail and infrastructure, power generation and distribution, solar energy and electric vehicles. Eltek is a power pioneer with over 40 years experience helping customers save energy and money while reducing their environmental impact.\nIn the PV market Eltek sets the standards for string inverters for residential and commercial applications.",
+  "address":"Eltek House<br\/>2 Maxted Road<br\/>Hemel Hempstead Industrial Estate<br\/>Hemel Hempstead<br\/>Hertfordshire<br\/>United Kingdom<br\/>HP2 7DX",
+  "product_images":[
+    {
+      "id":15725,
+      "title":"THEIA HE-t",
+      "thumbnail":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/5342\/338942db7ed54422bc01b0eb835279f5\/missing.gif",
+      "img":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/5342\/83e1f43f5443c9cbd8581762e9e7b931\/missing.gif",
+      "description":"Setting the standard \nThe THEIA HE-t range defines a new level of efficiency, flexibility and user friendliness for isolated string inverters. \nSuitable for all PV cell technologies, and ready for use all over the world, the THEIA HE-t is the perfect choice for any PV installation"
+    }
+  ],
+  "press_releases":[
+    
+  ],
+  "papers_articles":[
+    {
+      "id":15734,
+      "title":"Making the most of sunlight: high frequency transformer-based inverters for PV systems",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5342\/9jf88ajea4.doc"
+    }
+  ],
+  "sales_marketing":[
+    {
+      "id":15736,
+      "title":"Datasheet THEIA HE-t",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5342\/my2wrilrry.pdf"
+    }
+  ],
+  "logo":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/profile\/logos\/5342\/eb01486e04d9fd93cf2ffaffbcb976a7\/missing.gif"
+}

@@ -1,0 +1,33 @@
+{
+  "id":355,
+  "name":"New Passivhaus technologies and innovations",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session explores the new technologies, systems and innovations that make achieving Passivhaus simpler, cheaper and easier. These range from individual components to whole house systems that are manufactured offsite.",
+  "presentations":[
+    {
+      "id":1217,
+      "name":"New technologies and innovations",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"John Barnham, Head of Sustainable Investment, Orbit Heart of England"
+    },
+    {
+      "id":1218,
+      "name":"Case studies - BEATTIE Passivhaus",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Ron Beattie, BEATTIE Passivhaus"
+    },
+    {
+      "id":1219,
+      "name":"Lessons from Europe - looking at mass production off site to ease construction costs:",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"David Craddock, Technical Director, EBS elk"
+    },
+    {
+      "id":1220,
+      "name":"European Case Study - developing timber wood supply chain in the UK",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Representative tbc, BDP"
+    }
+  ]
+}

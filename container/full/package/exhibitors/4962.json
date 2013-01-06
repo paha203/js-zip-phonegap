@@ -1,0 +1,37 @@
+{
+  "id":4962,
+  "name":"Data Design System Gmbh",
+  "stands":"BIM7",
+  "url":"http:\/\/www.dds-cad.com",
+  "description":"",
+  "address":"An Der Hansalinie 48-50<br\/>Ascheberg<br\/>Germany<br\/>59387",
+  "product_images":[
+    {
+      "id":15918,
+      "title":"DDS-CAD PV - the tool for PV professionals",
+      "thumbnail":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/4962\/338942db7ed54422bc01b0eb835279f5\/missing.gif",
+      "img":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/4962\/83e1f43f5443c9cbd8581762e9e7b931\/missing.gif",
+      "description":"DDS-CAD PV enables the planning of PV systems for a number of applications. Whether roof, fa\u00e7ade, or ground mounted, the system can be planned and visualized in 3D. The sun\u2019s position can be simulated on-site enabling the modelling of shadows of surrounding objects. For presentation purposes, simulations can be animated as an image or movie sequence.\n\nWith the fully integrated plug-in, Polysun Inside, DDS-CAD PV is able to make yield calculations based on global weather data from over 8,500 weather stations. The plug-in also offers an automatic inverter mapping as well as a comprehensive module and inverter database."
+    },
+    {
+      "id":15915,
+      "title":"DDS-CAD: the Open BIM tool for MEP engineers",
+      "thumbnail":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/4962\/338942db7ed54422bc01b0eb835279f5\/missing.gif",
+      "img":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/4962\/83e1f43f5443c9cbd8581762e9e7b931\/missing.gif",
+      "description":"DDS-CAD MEP is an advanced Building Information Modelling (BIM) tool for the design and documentation of electrical, mechanical and plumbing systems for buildings. It is a stand-alone system, rather than an add-on product which relies on a 3rd party CAD system like many other products on the market. \n\nUnlike many other competing solutions, DDS-CAD MEP is not a one-size-fits-all product. It is available in many different configurations and can be tailored to meet both your current and future requirements.\n\nDDS-CAD MEP is the most powerful, productive tool for creating building services design and documentation for buildings."
+    }
+  ],
+  "press_releases":[
+    
+  ],
+  "papers_articles":[
+    
+  ],
+  "sales_marketing":[
+    {
+      "id":15917,
+      "title":"Data Design System - Product & Service overview",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/4962\/cvnfpdq1sd.pdf"
+    }
+  ]
+}

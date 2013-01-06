@@ -1,0 +1,33 @@
+{
+  "id":396,
+  "name":"Developments in BREEAM and achieving zero carbon non-domestic buildings",
+  "time":"14.15 &ndash; 15.45",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"BREEAM offers a range of assessment systems including new construction, international, domestic refurbishment, buildings in use and the wider issues of&nbsp; materplanning and communities. This session by experts in BREEAM will provide an update of the BREEAM suite of documents, where BREEAM will go as regulations toughen up and achieving the required outcomes at delivery.",
+  "presentations":[
+    {
+      "id":1364,
+      "name":"BREEAM 2014 \u2013 the continued evolution of BREEAM",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Tim Bevan, Principal Consultant, BRE"
+    },
+    {
+      "id":1365,
+      "name":"BREEAM and domestic refurbishment - examining lessons learned on refurbishment projects",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Gavin Summerson, Senior Consultant, BRE"
+    },
+    {
+      "id":1366,
+      "name":"BREEAM Communities - the environmental performance of new buildings is also affected by decisions taken at the masterplanning stage",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Helen Pineo, BREEAM Communities  Manager"
+    },
+    {
+      "id":1367,
+      "name":"Achieving zero-carbon non-domestic buildings",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Sam Archer, Associate Director, AECOM"
+    }
+  ]
+}

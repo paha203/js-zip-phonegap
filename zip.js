@@ -187,16 +187,28 @@
 	BlobReader.prototype = new Reader();
 	BlobReader.prototype.constructor = BlobReader;
 
-	function HttpReader(url) {
-		var that = this;
+	function HttpReader(url, options) {
+		var that = this, 
+			progressCallback = options.progressCallback || function() {};
+
+
 
 		function getData(callback, onerror) {
-		console.log('called getData');
-
 			var request;
 			if (!that.data) {
 				request = new XMLHttpRequest();
+				
+				request.addEventListener("progress", function(evt){
+                    log("NATIVE progress");
+                    var progress = {
+                        complete: evt.loaded,
+                        total: evt.total
+                    };
+					progressCallback(progress);
+				});
+				
 				request.addEventListener("load", function() {
+                    log("File fully downloaded from the server.. about to extract");
 					if (!that.size)
 						that.size = Number(request.getResponseHeader("Content-Length"));
 					that.data = new Uint8Array(request.response);
@@ -224,10 +236,11 @@
 		}
 
 		function readUint8Array(index, length, callback, onerror) {
-		console.log('called readUint8Array');
-
 			getData(function() {
-				callback(new Uint8Array(that.data.subarray(index, index + length)));
+                view.writeConsole("read "+length+" bytes");
+                setTimeout(function(){
+				    callback(new Uint8Array(that.data.subarray(index, index + length)));
+                }, 50);
 			}, onerror);
 		}
 
@@ -716,7 +729,6 @@
 				});
 				dataOffset = that.offset + 30 + that.filenameLength + that.extraFieldLength;
 				writer.init(function() {
-					console.log('should be uncompressing now');
 					if (that.compressionMethod === 0)
 						copy(reader, writer, dataOffset, that.compressedSize, checkCrc32, getWriterData, onprogress, onreaderror, onwriteerror);
 					else
@@ -729,7 +741,9 @@
 			reader.readUint8Array(reader.size - offset, offset, function(bytes) {
 				var dataView = getDataHelper(bytes.length, bytes).view;
 				if (dataView.getUint32(0) != 0x504b0506) {
-					seekEOCDR(offset+1, entriesCallback);
+                    setTimeout(function(){
+					    seekEOCDR(offset+1, entriesCallback);
+                    }, 3);
 				} else {
 					entriesCallback(dataView);
 				}
@@ -739,7 +753,9 @@
 		}
 
 		return {
-			getEntries : function(callback) {
+			getEntries : function(callback, progressCallback) {
+                progressCallback = progressCallback || function(){};
+
 				if (reader.size < 22) {
 					onerror(ERR_BAD_FORMAT);
 					return;
@@ -751,29 +767,41 @@
 					reader.readUint8Array(datalength, reader.size - datalength, function(bytes) {
 						var i, index = 0, entries = [], entry, filename, comment, data = getDataHelper(bytes.length, bytes);
 						for (i = 0; i < fileslength; i++) {
-							entry = new Entry();
-							if (data.view.getUint32(index) != 0x504b0102) {
-								onerror(ERR_BAD_FORMAT);
-								return;
-							}
-							readCommonHeader(entry, data, index + 6, true, function(error) {
-								onerror(error);
-								return;
-							});
-							entry.commentLength = data.view.getUint16(index + 32, true);
-							entry.directory = ((data.view.getUint8(index + 38) & 0x10) == 0x10);
-							entry.offset = data.view.getUint32(index + 42, true);
-							filename = getString(data.array.subarray(index + 46, index + 46 + entry.filenameLength));
-							entry.filename = ((entry.bitFlag & 0x0800) === 0x0800) ? decodeUTF8(filename) : decodeASCII(filename);
-							if (!entry.directory && entry.filename.charAt(entry.filename.length - 1) == "/")
-								entry.directory = true;
-							comment = getString(data.array.subarray(index + 46 + entry.filenameLength + entry.extraFieldLength, index + 46
-									+ entry.filenameLength + entry.extraFieldLength + entry.commentLength));
-							entry.comment = ((entry.bitFlag & 0x0800) === 0x0800) ? decodeUTF8(comment) : decodeASCII(comment);
-							entries.push(entry);
-							index += 46 + entry.filenameLength + entry.extraFieldLength + entry.commentLength;
+							setTimeout((function(i){
+                                return function(){
+
+                                    entry = new Entry();
+                                    if (data.view.getUint32(index) != 0x504b0102) {
+                                        onerror(ERR_BAD_FORMAT);
+                                        return;
+                                    }
+                                    readCommonHeader(entry, data, index + 6, true, function(error) {
+                                        onerror(error);
+                                        return;
+                                    });
+                                    entry.commentLength = data.view.getUint16(index + 32, true);
+                                    entry.directory = ((data.view.getUint8(index + 38) & 0x10) == 0x10);
+                                    entry.offset = data.view.getUint32(index + 42, true);
+                                    filename = getString(data.array.subarray(index + 46, index + 46 + entry.filenameLength));
+                                    entry.filename = ((entry.bitFlag & 0x0800) === 0x0800) ? decodeUTF8(filename) : decodeASCII(filename);
+                                    if (!entry.directory && entry.filename.charAt(entry.filename.length - 1) == "/")
+                                        entry.directory = true;
+                                    comment = getString(data.array.subarray(index + 46 + entry.filenameLength + entry.extraFieldLength, index + 46
+                                        + entry.filenameLength + entry.extraFieldLength + entry.commentLength));
+                                    entry.comment = ((entry.bitFlag & 0x0800) === 0x0800) ? decodeUTF8(comment) : decodeASCII(comment);
+                                    entries.push(entry);
+                                    index += 46 + entry.filenameLength + entry.extraFieldLength + entry.commentLength;
+                                    progressCallback({
+                                        complete:i,
+                                        total:fileslength
+                                    });
+                                    if (i === fileslength - 1){
+                                        callback(entries);
+                                    }
+                                }
+                            })(i),50);
 						}
-						callback(entries);
+
 					}, function() {
 						onerror(ERR_READ);
 					});

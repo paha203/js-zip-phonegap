@@ -1,0 +1,34 @@
+{
+  "id":111,
+  "name":"Understanding the sustainability drivers in overseas markets",
+  "time":"10.45 &ndash; 11.45",
+  "location":"Platinum Suite 1",
+  "description":"What is driving the sustainability agenda in global markets? Understanding the global corporate, regulatory, ratings and economic landscape and what this means for the built environment.&nbsp;",
+  "speakers":[
+    {
+      "id":1508,
+      "name":"James Drinkwater",
+      "occupation":"Senior Policy Advisor, UK Green Building Council"
+    },
+    {
+      "id":1509,
+      "name":"James Rowlands",
+      "occupation":"Global Research and Policy Project Manager, RICS"
+    },
+    {
+      "id":1511,
+      "name":"Phil Buttery",
+      "occupation":"CEO, International Sustainability Alliance"
+    },
+    {
+      "id":1512,
+      "name":"Simon Cox",
+      "occupation":"Vice President Project Management and UK Sustainability Officer, Prologis"
+    },
+    {
+      "id":1510,
+      "name":"Aleksandra Krstanovic",
+      "occupation":"Director, AECOM"
+    }
+  ]
+}

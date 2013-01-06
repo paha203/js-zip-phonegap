@@ -1,0 +1,39 @@
+{
+  "id":365,
+  "name":"Whole life carbon: The WWF Living Planet Centre as an exemplar of low carbon construction",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This seminar will look at the practical implementation of whole carbon measurement through a case study on the Living Planet Centre, WWF-UK&rsquo;s new Headquarters building in Woking.",
+  "presentations":[
+    {
+      "id":1253,
+      "name":"The client&#039;s perspective",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Colin Butfield, Director of Campaigns and Public Engagement, WWF-UK"
+    },
+    {
+      "id":1254,
+      "name":"The design strategy",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Mike Taylor, Senior Partner, Hopkins Architects"
+    },
+    {
+      "id":1255,
+      "name":"The sustainability objectives",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Patrick Bellew, Principal, Atelier Ten"
+    },
+    {
+      "id":1256,
+      "name":"Whole life carbon",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Simon Sturgis, Director, Sturgis Carbon Profiling LLP"
+    },
+    {
+      "id":1257,
+      "name":"Delivering on site",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"David Adams, Technical Director, Willmott Dixon"
+    }
+  ]
+}

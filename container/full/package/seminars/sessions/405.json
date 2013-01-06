@@ -1,0 +1,33 @@
+{
+  "id":405,
+  "name":"Community energy \u2013 case studies",
+  "time":"15.45 &ndash; 17.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session showcases some exemplary community energy schemes, featuring a council-wide renewables masterplan for renewable energy to be provided locally; community energy generation for a 23-storey tower block; implementing a district energy scheme into existing urban communities; and a community energy scheme in a mixed-use development.",
+  "presentations":[
+    {
+      "id":1396,
+      "name":"Case study: Cheshire east renewables masterplan",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Rob Shaw, Director of Sustainability and Climate Change, LDA"
+    },
+    {
+      "id":1397,
+      "name":"Case Study: Grenfell Tower Estate",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Bill Watts, Senior Partner, Max Fordham"
+    },
+    {
+      "id":1398,
+      "name":"How to implement district energy solutions in existing urban areas",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Simon Woodward, Chief Executive, Cofely District Energy, and Chairman, UK District Energy Association"
+    },
+    {
+      "id":1399,
+      "name":"Mixed-use development: Graylingwell Park",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Rebecca Taylor, Partner, John Thompson &amp; Partners"
+    }
+  ]
+}

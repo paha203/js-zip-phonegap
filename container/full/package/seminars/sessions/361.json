@@ -1,0 +1,33 @@
+{
+  "id":361,
+  "name":"Carbon counting...a holistic approach to sustainable design",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"A masterclass led by Professor Tom Woolley.&nbsp;Organisations are increasingly under pressure to assess their carbon emissions whether it is through carbon reduction performance league tables or corporate social responsibility statements. This workshop will explain the pros and cons of assessing built environment embodied and operational CO2 emissions with a critical look at the best strategies to reduce resource consumption and damage to the environment.&nbsp;\n",
+  "presentations":[
+    {
+      "id":1238,
+      "name":"How to avoid the cherry picker approach to low-energy problems",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Professor Tom Woolley, ."
+    },
+    {
+      "id":1239,
+      "name":"Research into the carbon spike problem in cities",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Dr Jukka Heinonen, Aalto University, Finland"
+    },
+    {
+      "id":1240,
+      "name":"Whole Life Carbon Assessment and solutions to reducing your embodied footprint",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Gareth Roberts, Director, Sturgis Carbon Profiling LLP"
+    },
+    {
+      "id":1241,
+      "name":"Carbon management technology, technique and policy as they apply to the building sector",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Dr Rohinton Emmanuel, Reader: Sustainable Design &amp; Construction, Glasgow Caledonian University"
+    }
+  ]
+}

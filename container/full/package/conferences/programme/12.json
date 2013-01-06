@@ -1,0 +1,31 @@
+{
+  "id":12,
+  "name":"Sustainability overseas",
+  "sessions":[
+    {
+      "date":"Wednesday 06 March",
+      "programme":[
+        {
+          "id":111,
+          "time":"10.45 &ndash; 11.45",
+          "name":"Understanding the sustainability drivers in overseas markets"
+        },
+        {
+          "id":112,
+          "time":"12.45 &ndash; 13.45",
+          "name":"What and where are the market opportunities for sustainability expertise in BRIC nations?"
+        },
+        {
+          "id":113,
+          "time":"14.30 &ndash; 15.30",
+          "name":"What sustainability strategies are needed for different climatic zones?"
+        },
+        {
+          "id":114,
+          "time":"16.00 &ndash; 17.00",
+          "name":"Successfully delivering sustainable buildings in emerging markets"
+        }
+      ]
+    }
+  ]
+}

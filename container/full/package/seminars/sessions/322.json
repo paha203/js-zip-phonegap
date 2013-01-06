@@ -1,0 +1,33 @@
+{
+  "id":322,
+  "name":"Managing behaviour to reduce energy use",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session looks at the task of understanding and then managing and changing behaviour to reduce energy use in buildings. Speakers will cover emerging thinking on the perception of comfort and how people behave in relation to temperature and air flow and how to tap into occupier preferences and behaviours.",
+  "presentations":[
+    {
+      "id":1114,
+      "name":"Understanding the user perspective",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Professor John Connaughton, Professor of Sustainable Construction, University of Reading"
+    },
+    {
+      "id":1115,
+      "name":"Improving the user interface in the commercial sector",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Andy Ford, Technical Director for Buildings &amp; Infrastructure, Mott MacDonald, Fulcrum, and previous President, the Chartered Institute of Buildings Services Engineers (CIBSE)"
+    },
+    {
+      "id":1116,
+      "name":"Creating a corporate culture of energy efficiency - harness the energy of your employees",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Karen Lawrence, Director of Assurance, Marketing &amp; Business Development, Energy Saving Trust"
+    },
+    {
+      "id":1117,
+      "name":"Creative insights and solutions to support user-friendly workplaces",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Phil Tidd, Head of Consulting, Gensier"
+    }
+  ]
+}

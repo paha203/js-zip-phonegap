@@ -1,0 +1,33 @@
+{
+  "id":404,
+  "name":"Specifying biomass systems",
+  "time":"14.15 &ndash; 15.30",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session provides case studies and best practice for specifying and installing biomass systems, covering the provision of carbon-neutral heating for space and hot water at both domestic and small-medium scale commercial\/industrial capacities.",
+  "presentations":[
+    {
+      "id":1392,
+      "name":"Supply sources and sustainability",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Speaker to be confirmed, tbc"
+    },
+    {
+      "id":1393,
+      "name":"Specifying domestic biomass: case studies and best practice",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Speaker to be confirmed, tbc"
+    },
+    {
+      "id":1394,
+      "name":"Specifying commercial\/ small scale industrial biomass systems",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Speaker to be confirmed, tbc"
+    },
+    {
+      "id":1395,
+      "name":"Specifying medium scale biomass systems",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Chris Miles, Head of Renewable Heat, British Gas; Managing Director, Econergy ltd; and Director, Renewable Energy Association (REA)"
+    }
+  ]
+}

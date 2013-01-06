@@ -1,0 +1,33 @@
+{
+  "id":395,
+  "name":"Focus on Part L",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Part L 2013 is a step towards Part L 2016, which will require all new homes to be zero carbon and Part L 2019 which will require all buildings to be zero carbon. This session will explore progress to date and how to most effectively meet the performance standards required.",
+  "presentations":[
+    {
+      "id":1360,
+      "name":"2013 Part L - an introduction to the changes. Outline of the planned changes and the impact of these for domestic, non domestic and refurbishment",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Dan Jestico, Head of Research and Development, Hilson Moran"
+    },
+    {
+      "id":1361,
+      "name":"The reality gap - differences between achieving standards and achieving a sustainable building",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Huw Blackwell, Executive Sustainability Consultant, Hoare Lea"
+    },
+    {
+      "id":1362,
+      "name":"What are the most challenging aspects of the regulations for domestic buildings?",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Andrew Mellor, Partner, PRP Architects"
+    },
+    {
+      "id":1363,
+      "name":"What will be the most challenging aspects of the regulations for non-domestic buildings?",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Dr Paul Toyne, Group Head of Sustainability, WSP"
+    }
+  ]
+}

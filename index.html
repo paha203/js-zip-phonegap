@@ -1,72 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset='utf-8'>
-<title>Read a zip file demo</title>
-<link rel="stylesheet" href="default.css">
-<link rel="stylesheet" href="demo.css">
-<script src="http://192.168.1.99:1025/target/target-script-min.js#anonymous"></script>
-<script src="phonegap.js"></script>
+	<meta charset='utf-8'>
+	<title>Read a zip file demo</title>
+	
+	<link rel="stylesheet" href="default.css">
+	<link rel="stylesheet" href="demo.css">
+	
+	<script src="http://192.168.1.99:1025/target/target-script-min.js#anonymous"></script>
+	<script src="phonegap.js"></script>
 </head>
-
 <body>
-<input id="total" value="0" />
+    <textarea id="status" rows="20" cols="50"></textarea>
 
-	<a href="http://github.com/gildas-lormeau/zip.js"><img style="position: absolute; top: 0; right: 0; border: 0;"
-		src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-	<div id="container">
-		<h1>
-			<a href="../">zip.js</a> <span class="small"></span>
-		</h1>
-
-		<div class="description">
-			A JavaScript library to zip and unzip files
-			<hr>
-		</div>
-
-		<h2>Read a zip file demo</h2>
-
-		<ol id="demo-container">
-			<li>
-				<label>
-					<span class="form-label">choose a zip file</span>
-					<input type="input" value="./container.zip" id="file-input">
-<button id="fetch-zip">Fetch File</button>				</label>
-			</li>
-			<li>
-				<label>
-					<span class="form-label">choose temporary storage</span>
-					<select id="creation-method-input">
-						<option value="Blob">RAM</option>
-						<option value="File">HDD</option>
-					</select>
-				</label>
-			</li>
-			<li>
-				<span class="form-label">download zip content</span>
-				<ul id="file-list">
-				</ul>
-				<div id="output"></div>
-			</li>
-		</ol>
-
-	</div>
 	<script type="text/javascript" src="zip.js"></script>
-	<script type="text/javascript" src="inflate.js"></script>
-	<script type="text/javascript" src="deflate.js"></script>
+    <script type="text/javascript" src="inflate.js"></script>
+    <script type="text/javascript" src="deflate.js"></script>
+    <script type="text/javascript" src="Status.js"></script>
+    <script type="text/javascript" src="packageManager.js"></script>
+    <script type="text/javascript" src="Controller.js"></script>
 	<script type="text/javascript" src="demo2.js"></script>
-	<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15560121-15']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-	</script>
 </body>
 </html>

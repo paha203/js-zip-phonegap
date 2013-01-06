@@ -1,0 +1,33 @@
+{
+  "id":325,
+  "name":"Smart metering data collection and usage post occupancy",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"The use of smart meters to provide energy usage data in buildings has made a significant impact on an occupant's ability to use more energy more efficiently in the operation of their building. The UK's Smart Meter Implementation Programme will ensure that every home has smart meters by 2019. However, the collection and usage of metering data can raise challenges such as data privacy concerns, lack of end user engagement and analysing the vast amounts of data efficiently. This session discusses how these challenges can be overcome and how any risks related to the use of the technology can be minimised.",
+  "presentations":[
+    {
+      "id":1126,
+      "name":"How smart meters will work in the UK - an overview",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Erwin Frank-Schultz, Executive IT Architect, UKI Energy &amp; Utilities, Industry Technical Leader, IBM United Kingdom Limited"
+    },
+    {
+      "id":1127,
+      "name":"Integrating smart meters with appliances and building control systems",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Additional speakers to be confirmed, (tbc)"
+    },
+    {
+      "id":1128,
+      "name":"Analysing smart metering data to determine the effectiveness of building characteristics",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Mike Summers, Associate, Arup"
+    },
+    {
+      "id":1129,
+      "name":"Smart energy data empowers the consumer",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Ashley Pockock, Head of Industry, Regulation &amp; External Affairs, EDF Energy"
+    }
+  ]
+}

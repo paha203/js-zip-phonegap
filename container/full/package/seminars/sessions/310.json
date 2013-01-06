@@ -1,0 +1,33 @@
+{
+  "id":310,
+  "name":"Building regulations: getting energy conservation and ventilation right",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Energy conservation and ventilation need to be considered in tandem if healthy indoor air quality is to be achieved. This session looks at how to reduce the energy needs of a domestic property whilst at the same time ensuring the building is still ventilated for comfort and health.",
+  "presentations":[
+    {
+      "id":1065,
+      "name":"Where have we been - where are we going?",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Nick Jones, Technical Director for Refurbishment, The BRE Group"
+    },
+    {
+      "id":1066,
+      "name":"Energy conservation vs indoor air quality",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Lynne Sullivan, Architect &amp; Co-founding Partner, SustainableBYDesign"
+    },
+    {
+      "id":1067,
+      "name":"Getting ventilation right",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Andrew Parr, MVHR Technical &amp; Development Manager, Green Building Store"
+    },
+    {
+      "id":1068,
+      "name":"Low energy design principles, form and function",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Sally Godber, Partner, WARM: Low energy buildings practice"
+    }
+  ]
+}

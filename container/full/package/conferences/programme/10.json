@@ -1,0 +1,71 @@
+{
+  "id":10,
+  "name":"Design, architecture & sustainability",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "programme":[
+        {
+          "id":93,
+          "time":"11.15 &ndash; 12.15",
+          "name":"Sustainable design should be irresistible design"
+        },
+        {
+          "id":95,
+          "time":"13.00 &ndash; 14.00",
+          "name":"Lessons from the past"
+        },
+        {
+          "id":97,
+          "time":"14.45 &ndash; 15.45",
+          "name":"Reinventing the high street"
+        },
+        {
+          "id":98,
+          "time":"16.00 &ndash; 17.00",
+          "name":"Is BIM the saviour of sustainable design?"
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "programme":[
+        {
+          "id":99,
+          "time":"11.15 &ndash; 12.15",
+          "name":"How can design help to create sustainable communities?"
+        },
+        {
+          "id":100,
+          "time":"13.00 &ndash; 14.00",
+          "name":"Lecture title to be confirmed (tbc)"
+        },
+        {
+          "id":101,
+          "time":"14.45 &ndash; 15.45",
+          "name":"Water sensitive urban design"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "programme":[
+        {
+          "id":102,
+          "time":"11.15 &ndash; 12.15",
+          "name":"What about the over 70s?"
+        },
+        {
+          "id":103,
+          "time":"13.00 &ndash; 14.00",
+          "name":"How far can wood replace concrete and steel?"
+        },
+        {
+          "id":104,
+          "time":"14.45 &ndash; 15.45",
+          "name":"Encouraging sustainability through art"
+        }
+      ]
+    }
+  ]
+}

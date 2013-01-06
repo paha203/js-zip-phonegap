@@ -1,0 +1,14 @@
+{
+  "id":78,
+  "name":"The new economic realities lecture",
+  "time":"14.15 &ndash; 15.15",
+  "location":"Platinum Suite 2",
+  "description":"",
+  "speakers":[
+    {
+      "id":1248,
+      "name":"Andrew Simms",
+      "occupation":"Fellow, New Economics Foundation"
+    }
+  ]
+}

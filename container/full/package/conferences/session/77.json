@@ -1,0 +1,29 @@
+{
+  "id":77,
+  "name":"Rating systems - time to review and rationalise?",
+  "time":"14.30 &ndash; 15.30",
+  "location":"Mezzanine",
+  "description":"As building regulations get tougher going above and beyond these becomes more difficult and expensive. Also, are ratings effective and do these drive perverse outcomes? For example, BREEAM gives points for biomass heating but nothing for not needing any heating, which method do we use? Do we just need to agree on one system? Does it produce cost-effective results for the whole life costings of the buildings?",
+  "speakers":[
+    {
+      "id":1245,
+      "name":"James Parker",
+      "occupation":"Senior Research Engineer, BSRIA"
+    },
+    {
+      "id":1246,
+      "name":"Louise Ellison",
+      "occupation":"Head of Sustainability, Quintain"
+    },
+    {
+      "id":1247,
+      "name":"Robin Nicholson",
+      "occupation":"Senior Partner, Cullinan Studio"
+    },
+    {
+      "id":1650,
+      "name":"Isabel McAllister",
+      "occupation":"Head of Sustainability, Mace"
+    }
+  ]
+}

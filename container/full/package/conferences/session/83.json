@@ -1,0 +1,29 @@
+{
+  "id":83,
+  "name":"Carrot or stick? Achieving behaviour change",
+  "time":"12.30 &ndash; 13.30",
+  "location":"Platinum Suite 2",
+  "description":"",
+  "speakers":[
+    {
+      "id":1253,
+      "name":"Dr Cameron Hepburn",
+      "occupation":"Senior Research Fellow, Grantham Research Institute on Climate Change and the Environment, London School of Economics"
+    },
+    {
+      "id":1254,
+      "name":"Duncan Young",
+      "occupation":"Sustainability Manager - New Business and Workplace Change Manager, Lend Lease"
+    },
+    {
+      "id":1256,
+      "name":"David Symons",
+      "occupation":"Director, WSP Environment & Energy"
+    },
+    {
+      "id":1326,
+      "name":"Rebekah Phillips",
+      "occupation":"Associate, Green Alliance"
+    }
+  ]
+}

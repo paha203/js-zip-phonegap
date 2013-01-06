@@ -1,0 +1,48 @@
+{
+  "id":5457,
+  "name":"AceCad Software Ltd",
+  "stands":"N424",
+  "url":"http:\/\/www.acecadsoftware.com",
+  "description":"AceCad Software delivers advanced software products and services for the construction industry.\n\nThese include specialist software products for BIM review and collaboration and design to construction project management.\n\nBIMReview is a low-cost BIM project review and collaboration tool with exceptional capability for communicating to project teams.\n\nBIMProject enables BIM models from leading design authoring tools to be imported and data extracted for all downstream supply management including tendering and purchasing to the construction site.",
+  "address":"Truro House<br\/>Wyvern Business Park<br\/>Derby<br\/>Derbyshire<br\/>United Kingdom<br\/>DE21 6LY",
+  "product_images":[
+    {
+      "id":16206,
+      "title":"BIMReview",
+      "thumbnail":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/5457\/338942db7ed54422bc01b0eb835279f5\/missing.gif",
+      "img":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/5457\/83e1f43f5443c9cbd8581762e9e7b931\/missing.gif",
+      "description":"Collaborative review and visual communication from design to the construction site. Import BIM models and associated data from multiple CAD authoring tools and instantly access project information."
+    },
+    {
+      "id":16205,
+      "title":"BIMProject",
+      "thumbnail":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/5457\/338942db7ed54422bc01b0eb835279f5\/missing.gif",
+      "img":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/exhibitor\/5457\/83e1f43f5443c9cbd8581762e9e7b931\/missing.gif",
+      "description":"BIM Content Management for the construction supply chain. Real-time project controls, supply management and construction planning to deliver projects on time, in budget and at reduced risk to stake holders"
+    }
+  ],
+  "press_releases":[
+    
+  ],
+  "papers_articles":[
+    
+  ],
+  "sales_marketing":[
+    {
+      "id":16209,
+      "title":"AceCad",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5457\/tgdfonl3q6.pdf"
+    },
+    {
+      "id":16208,
+      "title":"BIMReview",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5457\/kltebhvn07.pdf"
+    },
+    {
+      "id":16207,
+      "title":"BIMProject",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5457\/obqax3tavr.pdf"
+    }
+  ],
+  "logo":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/profile\/logos\/5457\/eb01486e04d9fd93cf2ffaffbcb976a7\/missing.gif"
+}

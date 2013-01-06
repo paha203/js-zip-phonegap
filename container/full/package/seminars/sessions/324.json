@@ -1,0 +1,33 @@
+{
+  "id":324,
+  "name":"Carrying out a successful post occupancy evaluation",
+  "time":"16.30 &ndash; 18.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Post occupancy evaluations are an important mechanism to deliver feedback and strategy for achieving best operational performance of new and refurbished buildings. This session examines the detail of what a successful POE looks like and how to feed the evaluation outcomes into future improvements.",
+  "presentations":[
+    {
+      "id":1122,
+      "name":"Using the evidence under our noses",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Bill Bordass, Research &amp; Policy Adviser, Usable Buildings Trust"
+    },
+    {
+      "id":1123,
+      "name":"Case study - non-domestic",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Robert Cohen, Technical Director, Verco"
+    },
+    {
+      "id":1124,
+      "name":"Case Study - domestic",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Dr Tim Sharpe, Director, The Mackintosh Environmental Architecture Research Unit (MEARU)"
+    },
+    {
+      "id":1125,
+      "name":"An architect&#039;s view",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Matt Vaudin, Architect, Stonewood Design"
+    }
+  ]
+}

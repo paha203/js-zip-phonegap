@@ -1,0 +1,24 @@
+{
+  "id":98,
+  "name":"Is BIM the saviour of sustainable design?",
+  "time":"16.00 &ndash; 17.00",
+  "location":"Mezzanine",
+  "description":"Hosted by: Thomas Lane, Group Technical Editor, Building Magazine and Ecobuild &nbsp;&nbsp;",
+  "speakers":[
+    {
+      "id":1286,
+      "name":"Michael Beaven",
+      "occupation":"BIM Leader, Arup"
+    },
+    {
+      "id":1287,
+      "name":"Sunand Prasad",
+      "occupation":"Senior Partner, Penoyre and Prasad"
+    },
+    {
+      "id":1288,
+      "name":"Ken Shuttleworth",
+      "occupation":"Founding Partner, Make Architects"
+    }
+  ]
+}

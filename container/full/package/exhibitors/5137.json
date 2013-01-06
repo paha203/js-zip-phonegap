@@ -1,0 +1,54 @@
+{
+  "id":5137,
+  "name":"EnOcean GmbH",
+  "stands":"N3770",
+  "url":"http:\/\/www.enocean.com",
+  "description":"EnOcean is the originator of patented energy harvesting wireless technology. Headquartered in Oberhaching, near Munich, the company manufactures and markets energy harvesting wireless modules for use in building and industrial applications as well as in further application fields such as smart home, smart metering, logistics or transport. EnOcean technology combines miniaturized energy converters with ultra-low-power electronics and robust RF communication. For 10 years, leading product manufacturers have chosen wireless modules from EnOcean to enable their system ideas. EnOcean is a promoter of the EnOcean Alliance, a consortium of companies from the world's building sector that has set itself the aim of creating innovative solutions for sustainable buildings. Self-powered wireless technology from EnOcean has been successfully deployed in more than 250,000 buildings worldwide. The EnOcean wireless protocol is standardized internationally as ISO\/IEC 14543-3-10, which is optimized for wireless solutions with ultra-low power consumption and energy harvesting.",
+  "address":"Kolpingring 18a<br\/>Oberhaching<br\/>Germany<br\/>82041",
+  "product_images":[
+    
+  ],
+  "press_releases":[
+    
+  ],
+  "papers_articles":[
+    {
+      "id":16244,
+      "title":"KNX and EnOcean - New avenues in KNX building automation by integrating self-powered wireless sensors",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/k3elgexprn.pdf"
+    },
+    {
+      "id":16243,
+      "title":"LonMark International and EnOcean Alliance team-up for optimal network topologies in building automation",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/k2bwxgoyjl.pdf"
+    },
+    {
+      "id":16242,
+      "title":"EnOcean Technology and LEED - Enabling Sustainability",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/r1fh9e5m2a.pdf"
+    },
+    {
+      "id":16241,
+      "title":"BACnet and EnOcean enable Energy Efficient Buildings",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/c3u6qhguuh.pdf"
+    },
+    {
+      "id":16240,
+      "title":"Wireless Lighting Controls: A Total Cost Analysis",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/8xfn6ayfvj.pdf"
+    }
+  ],
+  "sales_marketing":[
+    {
+      "id":16239,
+      "title":"EnOcean Alliance Image Brochure",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/zo2mi5tv11.pdf"
+    },
+    {
+      "id":16238,
+      "title":"EnOcean Alliance Building Brochure",
+      "file":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/exhibitor\/5137\/2374zioud4.pdf"
+    }
+  ],
+  "logo":"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/profile\/logos\/5137\/eb01486e04d9fd93cf2ffaffbcb976a7\/missing.gif"
+}

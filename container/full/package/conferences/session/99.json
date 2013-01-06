@@ -1,0 +1,24 @@
+{
+  "id":99,
+  "name":"How can design help to create sustainable communities?",
+  "time":"11.15 &ndash; 12.15",
+  "location":"Mezzanine",
+  "description":"Hosted by: Gary Young, Partner, Farrells",
+  "speakers":[
+    {
+      "id":1289,
+      "name":"Wendy Shillam",
+      "occupation":"Director, Urbaneye"
+    },
+    {
+      "id":1290,
+      "name":"Pooran Desai",
+      "occupation":"Co-founder, BioRegional, and International Director, One Planet Communities"
+    },
+    {
+      "id":1291,
+      "name":"Liane Hartley",
+      "occupation":"Director, Mend"
+    }
+  ]
+}

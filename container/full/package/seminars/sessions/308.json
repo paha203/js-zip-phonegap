@@ -1,0 +1,33 @@
+{
+  "id":308,
+  "name":"Funding options for self-builders (new-build and renovation)",
+  "time":"14.15 &ndash; 15.30",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session examines the funding options for self-build projects and asks how the self-builder can ensure that they meet the criteria required by lenders including approvals, standards and warranties. It also discusses the HCA funding for custom build housing for multi-unit schemes.",
+  "presentations":[
+    {
+      "id":1057,
+      "name":"Industry sector overview and funding options",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Paul Broadhead, Head of Mortgage Policy, Building Societies Association"
+    },
+    {
+      "id":1058,
+      "name":"The lending landscape: trends",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Paul Ellis, Chief Executive, Ecology Building Society"
+    },
+    {
+      "id":1059,
+      "name":"Halifax self-build mortgages - how to meet conditions and get approvals",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Douglas Cochrane, Head of Housing Development, Lloyds Head of Lending (Halifax)"
+    },
+    {
+      "id":1060,
+      "name":"\u00a330m HCA funding for custom build housing",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Andy Nelson, Team Leader, Provider Management, Homes and Communities"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id":90,
+  "name":"Climate change \u2013 why we are here?",
+  "time":"14.30 &ndash; 15.30",
+  "location":"Platinum Suite 2",
+  "description":"",
+  "speakers":[
+    {
+      "id":1267,
+      "name":"Peter Head",
+      "occupation":"CBE, Executive Chairman, The Ecological Sequestration Trust"
+    },
+    {
+      "id":1339,
+      "name":"Minister to be confirmed",
+      "occupation":"(tbc)"
+    },
+    {
+      "id":1330,
+      "name":"Professor Sir Brian Hoskins",
+      "occupation":"Director, Grantham Institute for Climate Change, Imperial College London"
+    }
+  ]
+}

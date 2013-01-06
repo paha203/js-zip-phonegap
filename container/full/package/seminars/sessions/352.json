@@ -1,0 +1,33 @@
+{
+  "id":352,
+  "name":"Applying Passivhaus principles to large-scale projects",
+  "time":"14.15 &ndash; 15.30",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Passivhaus was originally used for low energy one off homes but has matured into an approach suitable for large housing schemes and non domestic buildings. It is beginning to be used for large commercial and other non domestic buildings too. This session explores how Passivhaus can be applied to large projects though case studies.",
+  "presentations":[
+    {
+      "id":1207,
+      "name":"Case study - Chester Balmore Residential Project",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Representative tbc, Camden Council<br \/>Representative tbc, Willmott Dixon"
+    },
+    {
+      "id":1208,
+      "name":"Case study - Passivhaus hospital in Frankfurt",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Roland Matzig, R-M-P Passivhaus"
+    },
+    {
+      "id":1209,
+      "name":"Case study - Interserve office",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"John Walkerdine, Interserve"
+    },
+    {
+      "id":1210,
+      "name":"Large-scale domestic retrofit",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Additional speakers to be confirmed, (tbc)"
+    }
+  ]
+}

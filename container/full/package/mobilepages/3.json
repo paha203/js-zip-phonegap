@@ -1,0 +1,10 @@
+{
+  "id":3,
+  "name":"About the app",
+  "icon":"settings",
+  "list":"info",
+  "xtype":"page",
+  "posted_on":"30th September 2012",
+  "handle":"about-the-app",
+  "content":"<h3>Mobile Event App<br \/> powered by <em>De Facto.<\/em><\/h3>\n<p>De Facto offer cutting edge CMS event and brand integrations. Allowing seamless communication between event web sites, event planning, ticketing and mobile technology. Allowing customers to engage with your brand at all times.<\/p>\n<p>Powerful, integrated, stylish and easy to use.<\/p>\n<div class=\"defactologo\"><img src=\"http:\/\/alex.local\/ecobuild\/2012\/var\/uploads\/cache\/filemanager\/4223\/0d797953fb4bfa27970c13cd792cf5bb\/missing.gif\" border=\"0\" alt=\"Defacto\" style=\"border: 0px;\" \/><br \/><a href=\"http:\/\/www.de-facto.com\" target=\"_blank\">www.de-facto.com<\/a><\/div>"
+}

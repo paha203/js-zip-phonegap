@@ -1,0 +1,33 @@
+{
+  "id":384,
+  "name":"Designing for energy-efficient, low-carbon buildings: public buildings",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session covers low carbon building design imperatives such as responsible sourcing, embodied carbon calculations, technology integration, landscape design, and human behaviour. Case studies demonstrate the latest thinking.",
+  "presentations":[
+    {
+      "id":1323,
+      "name":"\u201cThe Hive\u201d \u2013 Worcester library and history centre: BREEAM outstanding",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Jo Wright, Partner Studio Leader, Feilden Clegg Bradley Studios"
+    },
+    {
+      "id":1324,
+      "name":"Healthcare case studies",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Paul Monaghan, Director, Allford Hall Monaghan Morris"
+    },
+    {
+      "id":1325,
+      "name":"Cultural Buildings case study",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Henry Luker, Senior Partner, Max Fordham"
+    },
+    {
+      "id":1326,
+      "name":"Schools case study",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Richard Cottrell, Partner, Cottrell &amp; Vermeulen Architecture"
+    }
+  ]
+}

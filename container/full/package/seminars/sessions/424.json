@@ -1,0 +1,33 @@
+{
+  "id":424,
+  "name":"Planning and its role in achieving zero-carbon",
+  "time":"14.15 &ndash; 15.45",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Targets for 2020 will only be reached if there is an integrated approach to the full spectrum of regulatory control. This session explores the issues to identify strategies for successful delivery.",
+  "presentations":[
+    {
+      "id":1440,
+      "name":"Planning as part of a simplified regulatory environment",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Paul Watson, Strategic Director for Regeneration and Development and Vice President Emeritus Planning Officers Association"
+    },
+    {
+      "id":1441,
+      "name":"The role of technical and financial analysis in supporting planning policies and assisting the delivery of low carbon developments and infrastructure",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Matthew Turner, Principal Consultant, Sustainable Development Group, AECOM"
+    },
+    {
+      "id":1442,
+      "name":"A review of local housing standards &amp; the code for sustainable homes",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Simon Brown, Team Leader, Code for Sustainable Homes and Local Housing Standards, DCLG"
+    },
+    {
+      "id":1443,
+      "name":"Can regulation cutting really encourage more house building?",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"John Slaughter, Director of External Affairs, Home Builders Federation"
+    }
+  ]
+}

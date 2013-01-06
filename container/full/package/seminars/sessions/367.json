@@ -1,0 +1,27 @@
+{
+  "id":367,
+  "name":"Whole life carbon analysis as an integral part of the design process",
+  "time":"14.15 &ndash; 15.45",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"The challenge for the construction industry is to understand whole life carbon holistically by balancing embodied carbon of products and the construction process with operational carbon emissions. This session examines how to identify solutions with lower carbon impacts, how to deliver savings overall and how to deliver these imperatives without compromising the design quality of our built environment.",
+  "presentations":[
+    {
+      "id":1263,
+      "name":"Whole life carbon data in design",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Dr Craig Jones, Principal Associate, Sustain Ltd"
+    },
+    {
+      "id":1264,
+      "name":"Whole life carbon - the economic case",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Simon Sturgis, Director, Sturgis Carbon Profiling LLP"
+    },
+    {
+      "id":1265,
+      "name":"Integrating the analysis with design",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"William Fawcett, Cambridge Architectural Research"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id":379,
+  "name":"Encouraging behavioural change among tenants and landlords",
+  "time":"10.45 &ndash; 12.35",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session covers the relationship between tenant and landlord and how they can work together towards to reduce energy use in leased buildings. It also includes incentives and illustrated with case studies.",
+  "presentations":[
+    {
+      "id":1306,
+      "name":"O2 home working during Olympics",
+      "time":"10.45 &ndash; 12.35",
+      "speakers":"Ben Dowd, Business Director, O2 UK"
+    },
+    {
+      "id":1307,
+      "name":"Incentives to taking up sustainability measures",
+      "time":"10.45 &ndash; 12.35",
+      "speakers":"Helen Drury, Policy Advisor, British Council for Shopping Centres"
+    },
+    {
+      "id":1308,
+      "name":"Going green \u2013 adopting a sustainable approach",
+      "time":"10.45 &ndash; 12.35",
+      "speakers":"Richard Francis, f Sustainability at Gardiner &amp; Theobald and Chair of the BCO Environmental Sustainability Group"
+    },
+    {
+      "id":1309,
+      "name":"Providing strategic support on sustainability issues",
+      "time":"10.45 &ndash; 12.35",
+      "speakers":"Laura Jockers, Director, Upstream Sustainability Services, Jones Lang LaSalle"
+    }
+  ]
+}

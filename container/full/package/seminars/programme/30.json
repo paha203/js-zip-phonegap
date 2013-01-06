@@ -1,0 +1,75 @@
+{
+  "id":30,
+  "name":"Delivering sustainability in the city",
+  "description":"Our towns and cities are facing increasing impacts of climate change. By 2030 it is expected that over 90% of the UK&rsquo;s population will be living urban lifestyles. How can our towns and cities become life enhancing habitats for all, rather than sources of environmental degradation? This seminar stream will explore an integrated approach to delivering urban sustainability from city regions to local neighbourhoods, demonstrated throughout by case studies.",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":339,
+          "time":"10.45 &ndash; 12.15",
+          "name":"Fairness in the city - how can design help to create more equitable communities?"
+        },
+        {
+          "id":340,
+          "time":"12.30 &ndash; 14.00",
+          "name":"The biophilic city - integrating nature into urban design"
+        },
+        {
+          "id":341,
+          "time":"14.15 &ndash; 15.30",
+          "name":"Massive small: from masterplan to microplan - how small changes can make big differences"
+        },
+        {
+          "id":342,
+          "time":"15.45 &ndash; 17.00",
+          "name":"Regenerative cities \u2013 better cities, greener economies and healthier ecosystems"
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":343,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Smart cities - making the technology work"
+        },
+        {
+          "id":345,
+          "time":"14.30 &ndash; 16.00",
+          "name":"Making the most of green and blue infrastructure - creating economic value while delivering multiple benefits"
+        },
+        {
+          "id":346,
+          "time":"16.30 &ndash; 18.00",
+          "name":"Sustainable urban form - compact city or garden suburb?"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":347,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Water Sensitive Urban Design (WSUD) - putting the business case into practice. A masterclass with Professor Tony Wong"
+        },
+        {
+          "id":348,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Place keeping - the vital role of long-term open space management"
+        },
+        {
+          "id":349,
+          "time":"14.15 &ndash; 15.45",
+          "name":"Sustainable urban transport - delivering the promise"
+        }
+      ]
+    }
+  ]
+}

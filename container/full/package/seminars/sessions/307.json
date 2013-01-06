@@ -1,0 +1,33 @@
+{
+  "id":307,
+  "name":"New ways of delivering self-build housing",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session covers self-build on different scales and involving different viability models.&nbsp; With several case studies, this session looks at a variety of approaches and asks what are the secrets to their success and as leading case studies for self-build housing, how do they influence the self-build landscape of the future?",
+  "presentations":[
+    {
+      "id":1053,
+      "name":"Overview of different housing models across Britain",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Ted Stevens, Chairman, National Self-Build Association (NASBA)"
+    },
+    {
+      "id":1054,
+      "name":"Community land trusts in practice",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Alan Fox, Director, Cornwall Community Land Trust (CCLT)"
+    },
+    {
+      "id":1055,
+      "name":"Local authority case study: Build! \u00ae",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Helen Town, Strategic Housing Officer, Cherwell District Council"
+    },
+    {
+      "id":1056,
+      "name":"Case study: Lancaster co-housing",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Jon Sear, Founding Director, Lancaster Co-housing"
+    }
+  ]
+}

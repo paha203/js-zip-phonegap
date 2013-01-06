@@ -1,0 +1,33 @@
+{
+  "id":388,
+  "name":"Designing for energy-efficient, low-carbon commercial buildings",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session covers low carbon building design imperatives such as responsible sourcing, embodied carbon calculations, technology integration, landscape design, and human behaviour. Case studies demonstrate the latest thinking.",
+  "presentations":[
+    {
+      "id":1337,
+      "name":"Overview",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Speaker to be confirmed, tbc"
+    },
+    {
+      "id":1338,
+      "name":"Designing for low carbon offices: clients\u2019 perspectives",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Sarah Cary, Sustainable Developments Executive, British Land"
+    },
+    {
+      "id":1339,
+      "name":"Designing for low carbon hotels",
+      "time":"12.15 &ndash; 14.00",
+      "speakers":"James Dilley, Associate director, Jestico + Whiles"
+    },
+    {
+      "id":1340,
+      "name":"Wakefield One \u2013 Sustainable Civic Offices",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Peter Cartwright, Director, Cartwright Picard Architects"
+    }
+  ]
+}

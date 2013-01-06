@@ -1,0 +1,24 @@
+{
+  "id":79,
+  "name":"Sustainable communities - top down or bottom up?",
+  "time":"15.45 &ndash; 16.45",
+  "location":"Platinum Suite 2",
+  "description":"The Government has introduced various measures including core cities and the NPPF to empower local communities. Meanwhile grass roots movements such as transition towns are ganing momentum. How effective are these strategies at engaging?",
+  "speakers":[
+    {
+      "id":1249,
+      "name":"Professor Anne Power",
+      "occupation":"Professor of Social Policy and CASE Association, London School of Economics (LSE)"
+    },
+    {
+      "id":1501,
+      "name":"Chris Tinker",
+      "occupation":"Executive Board Director and Regeneration Chairman, Crest Nicholson"
+    },
+    {
+      "id":1502,
+      "name":"Rob Hopkins",
+      "occupation":"Co-founder, Transition Network"
+    }
+  ]
+}

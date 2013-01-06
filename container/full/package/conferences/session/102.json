@@ -1,0 +1,24 @@
+{
+  "id":102,
+  "name":"What about the over 70s?",
+  "time":"11.15 &ndash; 12.15",
+  "location":"Mezzanine",
+  "description":"Hosted by: Lord Richard Best, Chair, HAPPI Panel and President, Local Government Association",
+  "speakers":[
+    {
+      "id":1500,
+      "name":"Rita Newton",
+      "occupation":"Environmental Gerontologist and Chartered Surveyor, SURFACE Inclusive Design Research Centre, University of Salford"
+    },
+    {
+      "id":1297,
+      "name":"Barbara Douglas",
+      "occupation":"Strategic Director, The Quality of Life Partnership"
+    },
+    {
+      "id":1343,
+      "name":"David Birkbeck",
+      "occupation":"Chief Executive, Design for Homes"
+    }
+  ]
+}

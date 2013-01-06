@@ -1,0 +1,33 @@
+{
+  "id":315,
+  "name":"Retrofit in self-build: best practice pointers",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Refurbishing Britain's existing housing stock is an important step towards meeting carbon emission targets - but will also play a significant role in reducing household energy bills. This session provides some case study examples of best practice and shares solutions to a variety of common problems in Britain's ageing housing stock.",
+  "presentations":[
+    {
+      "id":1085,
+      "name":"Insulation, moisture and ventilation",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Andy Simmonds, Chief Executive, The Sustainable Building Association (AECB)"
+    },
+    {
+      "id":1086,
+      "name":"Case Study",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Additional speakers to be confirmed, (tbc)"
+    },
+    {
+      "id":1087,
+      "name":"Case study: 1950s concrete bungalow energy upgrade - Hay Tor",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Claus Best, Self-builder &amp; Retrofit Sole Trader, Best Carpenters"
+    },
+    {
+      "id":1088,
+      "name":"I want to refurb my house, now what? Problems faced by the self-build renovator",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Geoff Stowe, Self-builder currently upgrading a 1970s timber frame bungalow and Trustee, the AECB"
+    }
+  ]
+}

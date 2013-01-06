@@ -1,0 +1,39 @@
+{
+  "id":321,
+  "name":"Starting points: simple and effective tweaks to drive down energy use in existing buildings",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session looks at the \"low-hanging fruit\" in terms of energy saving measures. This includes both a drive for efficient fabric and an approach which avoids the need for employing overly complex services.",
+  "presentations":[
+    {
+      "id":1109,
+      "name":"Overview",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Ant Wilson, Director, Sustainability, Building Engineering, AECOM"
+    },
+    {
+      "id":1110,
+      "name":"Case study: turning ambition into real results in the DECC building",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Jennifer Rigby, Chief Information Officer, Department of Energy and Climate Change (DECC)"
+    },
+    {
+      "id":1111,
+      "name":"Using energy management systems to improve energy efficiency",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Dr Andy Lewry, Principal Consultant, BRE"
+    },
+    {
+      "id":1112,
+      "name":"Facilities management guidance",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Additional speakers to be confirmed, (tbc)"
+    },
+    {
+      "id":1113,
+      "name":"Making sure the building works",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Nick Cullen, Partner, Hoare Lea"
+    }
+  ]
+}

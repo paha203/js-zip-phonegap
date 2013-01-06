@@ -1,0 +1,80 @@
+{
+  "id":37,
+  "name":"Green energy",
+  "description":"The readjustment of the FiT demonstrates how Government policy impacts market conditions and consumer choice.&nbsp; The Green energy seminar stream will examine the Energy Bill and unravel incentives for power and heat generation.\nCovering micro generation to community and small- to medium-scale commercial green energy projects, this series of seminars will also provide technology updates and cover some of the practical and technical issues relating to specifying and installing specific green technologies.&nbsp; Exemplary case studies across the spectrum of project sizes and building\/ location type highlight new technologies and best practice pointers.",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":402,
+          "time":"10.45 &ndash; 12.15",
+          "name":"Making a market in renewables"
+        },
+        {
+          "id":403,
+          "time":"12.30 &ndash; 14.00",
+          "name":"New developments in solar technologies"
+        },
+        {
+          "id":404,
+          "time":"14.15 &ndash; 15.30",
+          "name":"Specifying biomass systems"
+        },
+        {
+          "id":405,
+          "time":"15.45 &ndash; 17.00",
+          "name":"Community energy \u2013 case studies"
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":406,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Maximising Government incentives for renewable energy"
+        },
+        {
+          "id":407,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Storage of solar energy in batteries for maximum returns"
+        },
+        {
+          "id":408,
+          "time":"14.30 &ndash; 16.00",
+          "name":"Models for community energy"
+        },
+        {
+          "id":409,
+          "time":"16.30 &ndash; 18.00",
+          "name":"Specification and application of air source heat pumps"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":410,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Specifying ground source heat pumps"
+        },
+        {
+          "id":411,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Opportunities in solar technologies for the commercial market"
+        },
+        {
+          "id":412,
+          "time":"14.30 &ndash; 16.00",
+          "name":"Making the most of low and zero carbon energy technologies in buildings"
+        }
+      ]
+    }
+  ]
+}

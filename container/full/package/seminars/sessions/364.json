@@ -1,0 +1,33 @@
+{
+  "id":364,
+  "name":"The Politics of Carbon Emissions Data presented by \u2018The Edge\u2019",
+  "time":"16.30 &ndash; 18.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"The first step towards reducing carbon emissions from the built environment is to understand how much is being emitted from individual buildings using a recognised set of straightforward metrics. But obtaining this information is strongly resisted by clients and project teams. This Edge debate aims to establish the extent and type of information that needs to be available on the whole life carbon emissions of the UK&rsquo;s building stock if the design, construction and property industries are to stand a chance of achieving the UK&rsquo;s carbon reduction targets.\nThe Edge is an inter-institutional ginger group involving CIBSE, ICE, RIBA, IStructE and the RICS and seeks to promote interdisciplinary co-operation between construction professionals. It seeks to encourage change in the industry through intellectual debate, political lobbying and inter-institutional working. Synopses of previous debates are recorded and are available at www.edgedebate.com",
+  "presentations":[
+    {
+      "id":1249,
+      "name":"tbc",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Doug King, Chief Science &amp; Engineering Advisor to BRE"
+    },
+    {
+      "id":1250,
+      "name":"tbc",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Professor Tadj Oreszczyn, Director, UCL Energy Institute"
+    },
+    {
+      "id":1251,
+      "name":"tbc",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Lynne Sullivan, OBE, Co-founding Partner, SustainableBYdesign"
+    },
+    {
+      "id":1252,
+      "name":"tbc",
+      "time":"16.30 &ndash; 18.00",
+      "speakers":"Richard Lorch, Editor, Building Research &amp; Information"
+    }
+  ]
+}

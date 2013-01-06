@@ -1,0 +1,27 @@
+{
+  "id":314,
+  "name":"Energy at home: low energy heating and the Renewable Heat Incentive",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Evaluating which heat-generating technology is best used in a particular self-build project requires looking at some very specific parameters including the location of the project, its orientation and size. This session covers a variety of technology solutions for new-build and existing properties undergoing refurbishment or extension, and looks at how the renewable heat incentive can support heat-generating technologies.",
+  "presentations":[
+    {
+      "id":1081,
+      "name":"Overview and introduction to the RHI",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Cathy Debenham, Founding Director, yougen.co.uk"
+    },
+    {
+      "id":1082,
+      "name":"When and how to specify heat pumps (GSHP &amp; ASHP)",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Tony Browen, President, Heat Pump Association"
+    },
+    {
+      "id":1083,
+      "name":"Specifying solar thermal in domestic properties",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Stuart Elmes, Founder &amp; CEO, Viridian Solar and Board member, Solar Trade Association (STA)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id":328,
+  "name":"Operational waste - how to reduce it, how to handle it and how to reuse it",
+  "time":"10.45 &ndash; 12.15",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Operational waste will have the biggest environmental impact over a development's lifecycle whether at building, neighbourhood or district level, To what extent can sustainable operational waste management be encouraged through design?",
+  "presentations":[
+    {
+      "id":1138,
+      "name":"The solutions available to developers for managing waste from traditional bin based systems to underground and vacuum systems",
+      "time":"10.45 &ndash; 12.15",
+      "speakers":"Julian Gaylor, Sales &amp; Marketing Director, Taylors Waste Converters"
+    },
+    {
+      "id":1139,
+      "name":"Reusing waste plastics and converting waste plastics into sustainable urban drainage systems",
+      "time":"10.45 &ndash; 12.15",
+      "speakers":"John Gaskarth, Managing Director, Econoplas"
+    },
+    {
+      "id":1140,
+      "name":"The problem of food waste in new and high density developments and options for management",
+      "time":"10.45 &ndash; 12.15",
+      "speakers":"Linda Crichton, Head of Collections &amp; Quality, WRAP"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id":309,
+  "name":"Exemplary sustainable self-builds",
+  "time":"15.45 &ndash; 17.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"From individual self-build to group projects, this session looks at a variety of exemplary schemes including a small group of affordable sustainable homes designed for easy construction by self-builders; a Passivhaus self-build exemplar; and a retrofit project certified to Passivhaus standard.",
+  "presentations":[
+    {
+      "id":1061,
+      "name":"Group &amp; individual self-build projects compared",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Jon Broome, Architect, Jon Broome Architects and Author, &#039;The Green Self-Build Book&#039;"
+    },
+    {
+      "id":1062,
+      "name":"Case study: building a Passivhaus: client&#039;s perspective",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Tahir Sharif, Client\/owner"
+    },
+    {
+      "id":1063,
+      "name":"Case study: the Devon Land Society scheme",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Don Lang, Director, The Land Society in Devon"
+    }
+  ]
+}

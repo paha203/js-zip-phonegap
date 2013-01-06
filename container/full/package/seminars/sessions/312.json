@@ -1,0 +1,33 @@
+{
+  "id":312,
+  "name":"Large-scale self-build solutions: European best-practice",
+  "time":"14.30 &ndash; 16.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"With reference to a variety of case studies from self-build schemes in Europe, this session asks what have been the lessons learned and what is the self-build landscape in the UK likely to look like in the future?",
+  "presentations":[
+    {
+      "id":1073,
+      "name":"Overview and case study: Almere, The Netherlands",
+      "time":"14.30 &ndash; 16.00",
+      "speakers":"Ted Stevens, Chairman, National Self-Build Association (NASBA)"
+    },
+    {
+      "id":1074,
+      "name":"Case study: resident-owned communities in Europe (and the USA)",
+      "time":"14.30 &ndash; 16.00",
+      "speakers":"Stephen Hill, Director, C20 Futureplanners"
+    },
+    {
+      "id":1075,
+      "name":"Learning from Vauban, Germany and French quarter, Tubingen",
+      "time":"14.30 &ndash; 16.00",
+      "speakers":"Marcus Adams, Managing Partner, John Thompson &amp; Partners"
+    },
+    {
+      "id":1076,
+      "name":"Case study: lessons from Europe -  Plymouth housing to Code L6",
+      "time":"14.30 &ndash; 16.00",
+      "speakers":"Charles Everard, Director, ZED Factory Ltd"
+    }
+  ]
+}

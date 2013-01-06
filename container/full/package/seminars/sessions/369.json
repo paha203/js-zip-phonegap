@@ -1,0 +1,33 @@
+{
+  "id":369,
+  "name":"Effective retrofit \u2013what is the right strategy?",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Could the UK&rsquo;s current retrofit strategy result in failed outcomes and negative unintended consequences such occupier ill health, building damage and loss of heritage? Is retrofit policy really going to help the UK meet its carbon reduction targets or is it just tinkering with these issues? Should retrofit also be addressing other issues including resource use, health, community, resilience and other core &ldquo;sustainability&rdquo; values? &nbsp;Are there better ways to approach retrofit? This seminar attempts to put retrofit into context, ask the big questions and provide practical ways to address radical retrofit, in an open and discursive format.",
+  "presentations":[
+    {
+      "id":1269,
+      "name":"Why retrofit is important",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Professor Robert Lowe, Chair of Energy &amp; Building Science, UCL"
+    },
+    {
+      "id":1270,
+      "name":"Understanding unintended consequences",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Professor Mike Davies, Professor of Building Physics&amp; Environment, UCL"
+    },
+    {
+      "id":1271,
+      "name":"Using off-setting on new build for local retrofit projects especially for buildings that might not otherwise get retrofitting finance.",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Alasdair Young, Associate Director, Buro Happold"
+    },
+    {
+      "id":1272,
+      "name":"What do we value? The different economics of retrofit",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Neil May, Natural Building Technologies, STBA, UCL"
+    }
+  ]
+}

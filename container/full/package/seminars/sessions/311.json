@@ -1,0 +1,33 @@
+{
+  "id":311,
+  "name":"Construction materials and methods",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"This session examines the balance to be struck between embodied energy in construction and a material's energy-saving credentials and therefore overall contribution to the building's energy efficiency levels. By use of case study examples, it will also consider the benefits of using natural materials in self-build projects.",
+  "presentations":[
+    {
+      "id":1069,
+      "name":"Overview: why materials matter",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Gary Newman, Chief Executive, Alliance for Sustainable Building products"
+    },
+    {
+      "id":1070,
+      "name":"Using natural materials as best practice in building design and construction: The Natural Home",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Adam Rowse, Building Designer, Technician and Project Manager, The Natural Home"
+    },
+    {
+      "id":1071,
+      "name":"Straw-bale building: examples",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Barbara Jones, Director, Straw Works"
+    },
+    {
+      "id":1072,
+      "name":"Using timber in self-build",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Robin Lancashire, Senior Timber Frame consultant, TRADA Technology"
+    }
+  ]
+}

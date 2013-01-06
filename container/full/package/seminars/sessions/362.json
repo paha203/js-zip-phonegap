@@ -1,0 +1,27 @@
+{
+  "id":362,
+  "name":"Getting the measurement systems right",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"If you can&rsquo;t consistently measure it you can&rsquo;t benchmark and mitigate it! This seminar will look at how to consistently measure embodied carbon on construction projects. It will look at a number of standards including the RICS Embodied Carbon guidance note, and Environmental Performance declarations. &nbsp;Hear from experts who have pioneered the measuring and mitigation of embodied carbon from component to system and the building.&nbsp;",
+  "presentations":[
+    {
+      "id":1242,
+      "name":"Getting the data right at product level. Environmental Product Declarations (EPD) and CEN\/TC350",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Jane Anderson, PE International"
+    },
+    {
+      "id":1243,
+      "name":"Inventory of carbon &amp; energy \u2013 analysis at building level",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Dr Craig Jones, Principle Associate, Sustain Ltd"
+    },
+    {
+      "id":1244,
+      "name":"Getting it right at project level",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Guy Battle, Lead Partner, Sustainability Services, Deloitte dcarbon8"
+    }
+  ]
+}

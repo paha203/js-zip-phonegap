@@ -1,0 +1,33 @@
+{
+  "id":376,
+  "name":"Successful retrofit strategies for big buildings",
+  "time":"10.30 &ndash; 12.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Many different strategies are required when assessing whether and how best to retrofit a building. This seminar explores the issues with case studies of four very different building challenges.\n\n&nbsp;",
+  "presentations":[
+    {
+      "id":1295,
+      "name":"Better Buildings Partnership (BBP) - case study exercise for multi-tenanted buildings.",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Neil Pennell, Head of Sustainability &amp; Engineering, Land Securities"
+    },
+    {
+      "id":1296,
+      "name":"The Strand Palace Hotel (built c. 1925-30)",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"David Maxwell, Investment Analyst, Sustainable Development Capital LLP"
+    },
+    {
+      "id":1297,
+      "name":"Elizabeth II Court. Retrofit of 1960s building as new HQ for Hampshire Country Council.",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Julian Lipscombe, Director, Bennetts Associates"
+    },
+    {
+      "id":1298,
+      "name":"Retrofit of a modernist 1970s building, University of Cambridge",
+      "time":"10.30 &ndash; 12.00",
+      "speakers":"Andy Keelin, Director, Buro Happold"
+    }
+  ]
+}

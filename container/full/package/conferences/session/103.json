@@ -1,0 +1,24 @@
+{
+  "id":103,
+  "name":"How far can wood replace concrete and steel?",
+  "time":"13.00 &ndash; 14.00",
+  "location":"Mezzanine",
+  "description":"Hosted by: Kieran Long, Architecture Critic, Evening Standard",
+  "speakers":[
+    {
+      "id":1299,
+      "name":"Professor Richard Harris",
+      "occupation":"Professor of Timber Engineering, Department of Architecture and Civil Engineering, University of Bath"
+    },
+    {
+      "id":1338,
+      "name":"Michael Taylor",
+      "occupation":"Partner, Hopkins"
+    },
+    {
+      "id":1322,
+      "name":"Additional speakers to be confirmed",
+      "occupation":"(tbc)"
+    }
+  ]
+}

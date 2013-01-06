@@ -1,0 +1,33 @@
+{
+  "id":327,
+  "name":"Health and indoor air quality",
+  "time":"14.15 &ndash; 15.45",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Maintaining healthy indoor air quality in buildings which are becoming more and more airtight is becoming an important issue, especially for multi-occupancy buildings. This session examines the design, operational and occupant wellbeing issues around air tightness, natural and mechanical ventilation and air quality in both domestic and non-domestic buildings.",
+  "presentations":[
+    {
+      "id":1134,
+      "name":"Air tightness, ventilation, overheating and healthy indoor air quality",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Lynne Sullivan, Architect &amp; Co-founding Partner, SustainableBYDesign"
+    },
+    {
+      "id":1135,
+      "name":"Indoor environments in non-domestic buildings",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Dr Andy Dengel, Head of Environmental Engineering &amp; Consultancy, Building Technology Group, BRE"
+    },
+    {
+      "id":1136,
+      "name":"Maintaining healthy indoor air quality in low energy homes",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Melissa Taylor, Technical Associate, The Good Homes Alliance"
+    },
+    {
+      "id":1137,
+      "name":"MVHR and indoor air quality - a tale of two developments",
+      "time":"14.15 &ndash; 15.45",
+      "speakers":"Marie Riordan, New Business Manager, Saxon Weald"
+    }
+  ]
+}

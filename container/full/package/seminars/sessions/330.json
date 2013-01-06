@@ -1,0 +1,33 @@
+{
+  "id":330,
+  "name":"SuDs masterclass - an opportunity to enhance urban design",
+  "time":"14.15 &ndash; 15.30",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Sustainable Drainage Systems are a vital component of managing water and delivering multiple benefits in our cities. SuDs need to link design, quality, effective performance and ease of maintenance to satisfy clients and developers.",
+  "presentations":[
+    {
+      "id":1444,
+      "name":"An overview of the issues",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Paul Shaffer, CIRIA"
+    },
+    {
+      "id":1145,
+      "name":"Integrating trees and green infrastructure alongside responsible water",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Martin Gammie, Consulting with Trees"
+    },
+    {
+      "id":1146,
+      "name":"The potential for urban rain-gardens",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Professor Nigel Dunnett, Professor of Planting Design &amp; Vegetation Technology and Director of the Green Roof Centre, University of Sheffield"
+    },
+    {
+      "id":1147,
+      "name":"SuDs design in an urban context",
+      "time":"14.15 &ndash; 15.30",
+      "speakers":"Bob Bray, Robert Bray Associates"
+    }
+  ]
+}

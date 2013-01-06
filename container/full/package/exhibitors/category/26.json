@@ -1,0 +1,92 @@
+[
+  {
+    "id":5457,
+    "name":"AceCad Software Ltd",
+    "stands":"N424"
+  },
+  {
+    "id":5130,
+    "name":"Albrecht Jung GmbH & Co.KG",
+    "stands":"N3701"
+  },
+  {
+    "id":5409,
+    "name":"Bedrock Tiles Limited",
+    "stands":"S872"
+  },
+  {
+    "id":5393,
+    "name":"Canal Engineering",
+    "stands":"S742"
+  },
+  {
+    "id":5437,
+    "name":"CIRIA",
+    "stands":"S1836"
+  },
+  {
+    "id":5361,
+    "name":"Clipso",
+    "stands":"S336"
+  },
+  {
+    "id":4962,
+    "name":"Data Design System Gmbh",
+    "stands":"BIM7"
+  },
+  {
+    "id":5389,
+    "name":"Desso Ltd",
+    "stands":"S720"
+  },
+  {
+    "id":5147,
+    "name":"ElecoSoft\u00ae",
+    "stands":"N426"
+  },
+  {
+    "id":5422,
+    "name":"Green Trade Project Office",
+    "stands":"S945"
+  },
+  {
+    "id":5086,
+    "name":"HETAS Ltd",
+    "stands":"N3000"
+  },
+  {
+    "id":5398,
+    "name":"NCS UK Limited",
+    "stands":"S769"
+  },
+  {
+    "id":4994,
+    "name":"Neolux",
+    "stands":"N1409"
+  },
+  {
+    "id":5379,
+    "name":"Open-City",
+    "stands":"S570"
+  },
+  {
+    "id":5431,
+    "name":"Plumb Center",
+    "stands":"N2710"
+  },
+  {
+    "id":5063,
+    "name":"Renewable Energy Installer",
+    "stands":"N2600"
+  },
+  {
+    "id":5160,
+    "name":"UK Green Building Council",
+    "stands":"N540, N730"
+  },
+  {
+    "id":5211,
+    "name":"UK Rainwater Harvesting Association",
+    "stands":"S1550"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id":75,
+  "name":"Is this the end of the road for zero carbon?",
+  "time":"12.45 &ndash; 13.45",
+  "location":"Ecobuild Arena",
+  "description":"The Government has redefined zero carbon, cut back on renewables subsidies and watered down Part L of the Building Regulations, especially for house-builders. What does this mean for the UK's legally binding carbon reduction targets and European legislation? Is this the end of the low and zero carbon agenda and if so, what will replace it?",
+  "speakers":[
+    {
+      "id":1242,
+      "name":"Dr. Brenda Boardman",
+      "occupation":"Emeritus Fellow at Oxford University's Environmental Change Institute, and Author of ECI's 'Achieving Zero: Delivering Future-Friendly Buildings'"
+    },
+    {
+      "id":1243,
+      "name":"Mark Clare",
+      "occupation":"Chief Executive, Barratt"
+    },
+    {
+      "id":1322,
+      "name":"Additional speakers to be confirmed",
+      "occupation":"(tbc)"
+    }
+  ]
+}

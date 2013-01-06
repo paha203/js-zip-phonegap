@@ -1,0 +1,33 @@
+{
+  "id":318,
+  "name":"Mind the gap: why does energy use fall so far short of predictions in new buildings?",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"The energy performance of new buildings does not always match predictions calculated at design stage and the differences can be substantial. This session looks at the factors contributing to these discrepancies and suggests best practice for ensuring that a building operates as efficiently as designed.",
+  "presentations":[
+    {
+      "id":1097,
+      "name":"Get real about building performance",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Bill Bordass, Research &amp; Policy Adviser, Usable Buildings Trust"
+    },
+    {
+      "id":1098,
+      "name":"Predicting operational energy consumption at design stage - can it be done?",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Anna Menezes, Research Engineer, AECOM"
+    },
+    {
+      "id":1099,
+      "name":"Outcomes and results from the Building Performance Evaluation Programme (BPE)",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Dr Jason Palmer, Director, Cambridge Architectural Research"
+    },
+    {
+      "id":1100,
+      "name":"Improving predictability of building performance",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Peter Tse, Senior Design Consultant, BSRIA"
+    }
+  ]
+}

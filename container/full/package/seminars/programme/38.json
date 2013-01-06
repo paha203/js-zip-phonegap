@@ -1,0 +1,70 @@
+{
+  "id":38,
+  "name":"Better through BIM",
+  "description":"All publicly funded projects must operate at Level 2 BIM by 2016, and most privately funded projects are expected to follow suit. &ldquo;This information model can be used to inform the decision-making process and answer questions throughout the entire project lifecycle. One BIM input can give us many valuable outputs. In order for this process to be effectively implemented, however, it needs to be undertaken in a truly collaborative environment (with iterative feedback loops), and here lies the real challenge.&rdquo; David Philp, Head of BIM Implementation, Cabinet Office.&nbsp;",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":413,
+          "time":"10.45 &ndash; 12.15",
+          "name":"Reducing waste through BIM"
+        },
+        {
+          "id":414,
+          "time":"12.30 &ndash; 14.00",
+          "name":"BIM benefits for Facilities Management"
+        },
+        {
+          "id":415,
+          "time":"14.30 &ndash; 16.00",
+          "name":"BIM as a building management tool."
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":416,
+          "time":"10.30 &ndash; 12.00",
+          "name":"Reducing waste through BIM"
+        },
+        {
+          "id":417,
+          "time":"12.30 &ndash; 14.00",
+          "name":"Economic Drivers for BIM \u2013 focus on cost-benefit analysis"
+        },
+        {
+          "id":418,
+          "time":"14.30 &ndash; 16.00",
+          "name":"BIM in practice \u2013 integrating facilities management from the outset"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "location":"This stream will take place in (room to be confirmed)\n\n",
+      "programme":[
+        {
+          "id":419,
+          "time":"10.30 &ndash; 12.15",
+          "name":"Beyond the building \u2013 BIM and landscape design"
+        },
+        {
+          "id":420,
+          "time":"13.00 &ndash; 14.30",
+          "name":"BIM \u2013 opportunities and developments"
+        },
+        {
+          "id":421,
+          "time":"14.15 &ndash; 15.45",
+          "name":"Leading the future \u2013 the wider potential of BIM"
+        }
+      ]
+    }
+  ]
+}

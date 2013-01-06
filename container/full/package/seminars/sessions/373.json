@@ -1,0 +1,33 @@
+{
+  "id":373,
+  "name":"Retrofit and refurbishment of traditional buildings and those in conservation areas",
+  "time":"12.30 &ndash; 14.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"There are over 6 million traditional buildings (defined as pre-1919 solid wall and with moisture permeable fabric) in the UK including almost a quarter of the existing housing stock, most of which is still going to be with us in 2050. Until recently there was little distinction between the way traditional and modern buildings were assessed and treated, but it is now understood that a distinct approach is required. &nbsp;This seminar considers the state of knowledge in regard to traditional buildings as well as possible solutions. &nbsp;",
+  "presentations":[
+    {
+      "id":1282,
+      "name":"Is planning helping or hindering heritage retrofit? Grosvenor Estate Case Study and wider research",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Kayla Friedman, AIA, (University of Cambridge Doctoral Candidate)"
+    },
+    {
+      "id":1283,
+      "name":"Low carbon heritage",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Andy Sheppard, Senior Consultant, ARUP"
+    },
+    {
+      "id":1284,
+      "name":"Sustainability is not all about energy \u2013 maintenance, quality, value and heritage",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Iain McCaig, Senior Architectural Conservator, English Heritage"
+    },
+    {
+      "id":1285,
+      "name":"A tool for radical retrofit or a Guidance tool approach for traditional buildings",
+      "time":"12.30 &ndash; 14.00",
+      "speakers":"Neil May, Natural Building Technologies, STBA, UCL"
+    }
+  ]
+}

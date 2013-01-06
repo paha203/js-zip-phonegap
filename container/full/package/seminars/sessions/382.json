@@ -1,0 +1,27 @@
+{
+  "id":382,
+  "name":"What rating method \u2013 Ska, BREEAM or LEED?",
+  "time":"16.00 &ndash; 17.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"Ska, BREEAM and LEED are crucial in assessing the sustainability of your buildings. This session will look at and compare these accreditations; and will also look at the next generation assessment methods.",
+  "presentations":[
+    {
+      "id":1316,
+      "name":"Next-generation assessment methods",
+      "time":"16.00 &ndash; 17.00",
+      "speakers":"David Cheshire, AECOM"
+    },
+    {
+      "id":1317,
+      "name":"SKA rating for existing buildings",
+      "time":"16.00 &ndash; 17.00",
+      "speakers":"Tim Robinson, RICS"
+    },
+    {
+      "id":1318,
+      "name":"BREEAM vs LEED vs SKA - The battle of the accreditations\u2019",
+      "time":"16.00 &ndash; 17.00",
+      "speakers":"Sophie Hutchinson, Morgan Lovell"
+    }
+  ]
+}

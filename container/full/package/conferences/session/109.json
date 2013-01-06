@@ -1,0 +1,29 @@
+{
+  "id":109,
+  "name":"The office of the future",
+  "time":"14.45 &ndash; 15.45",
+  "location":"",
+  "description":"",
+  "speakers":[
+    {
+      "id":1311,
+      "name":"David Pringle",
+      "occupation":"Director, Co-op"
+    },
+    {
+      "id":1312,
+      "name":"Mark Thompson",
+      "occupation":"Director, Sustainability & Climate Change, PWC"
+    },
+    {
+      "id":1665,
+      "name":"Dave Dunbar",
+      "occupation":"Head of BT Workstyle"
+    },
+    {
+      "id":1313,
+      "name":"Geoff Harris",
+      "occupation":"Director of Property & Development, Henderson"
+    }
+  ]
+}

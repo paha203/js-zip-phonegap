@@ -1,0 +1,29 @@
+{
+  "id":82,
+  "name":"Green for growth - reality check",
+  "time":"10.45 &ndash; 11.45",
+  "location":"Ecobuild Arena",
+  "description":"Construction is a key factor in why the UK has suffered a double-dip recession. The construction industry is promoting spending on construction to generate economic activity, but other investments such as green infrastructure, which delivers multiple, quantifiable benefits and retrofit could also reverse the trend. What and where should we invest to get the maximum benefit?",
+  "speakers":[
+    {
+      "id":1498,
+      "name":"Rt. Hon Michael Fallon MP",
+      "occupation":"Minister for Business and Enterprise, Department of Business, Innovaton and Skills"
+    },
+    {
+      "id":1252,
+      "name":"Mike Putnam",
+      "occupation":"Chief Executive, Skanska UK; and Co-Chair Green Construction Board"
+    },
+    {
+      "id":1255,
+      "name":"Professor Chris Gorse",
+      "occupation":"Professor of Construction and Project Management and Director of the Centre for Knowledge Exchange, Leeds Metropolitan University"
+    },
+    {
+      "id":1324,
+      "name":"Rhian Kelly",
+      "occupation":"Director for business environment, CBI"
+    }
+  ]
+}

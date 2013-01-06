@@ -1,0 +1,27 @@
+{
+  "id":331,
+  "name":"Designing for resource efficiency",
+  "time":"15.45 &ndash; 17.00",
+  "location":"This stream will take place in (room to be confirmed)\n\n",
+  "description":"The most effective way of reducing waste is through effective design. This includes designing for materials optimisation, utilising offsite construction and designing for deconstruction, reuse and recovery. This session covers how to put these principles into practice and includes case studies.",
+  "presentations":[
+    {
+      "id":1148,
+      "name":"How lessons from Cheshire Oaks informed ongoing development proposals with M&amp;S",
+      "time":"14.45 &ndash; 17.00",
+      "speakers":"Dr Rosi Fieldson, Simons Design"
+    },
+    {
+      "id":1149,
+      "name":"Design for reuse - the conversion of a former supermarket into a new headquarters for Moray Council",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"James Nelmes, Associate, Bennetts Associates"
+    },
+    {
+      "id":1445,
+      "name":"Delivering on site",
+      "time":"15.45 &ndash; 17.00",
+      "speakers":"Rachel Woolliscroft, Head of Sustainability, Wates"
+    }
+  ]
+}

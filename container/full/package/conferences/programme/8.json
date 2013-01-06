@@ -1,0 +1,76 @@
+{
+  "id":8,
+  "name":"Making sustainable construction happen",
+  "sessions":[
+    {
+      "date":"Tuesday 05 March",
+      "programme":[
+        {
+          "id":73,
+          "time":"11.30 &ndash; 12.30",
+          "name":"The Green Deal and ECO \u2013 how will it deliver?"
+        },
+        {
+          "id":75,
+          "time":"12.45 &ndash; 13.45",
+          "name":"Is this the end of the road for zero carbon?"
+        },
+        {
+          "id":77,
+          "time":"14.30 &ndash; 15.30",
+          "name":"Rating systems - time to review and rationalise?"
+        },
+        {
+          "id":79,
+          "time":"15.45 &ndash; 16.45",
+          "name":"Sustainable communities - top down or bottom up?"
+        }
+      ]
+    },
+    {
+      "date":"Wednesday 06 March",
+      "programme":[
+        {
+          "id":82,
+          "time":"10.45 &ndash; 11.45",
+          "name":"Green for growth - reality check"
+        },
+        {
+          "id":86,
+          "time":"12.15 &ndash; 13.15",
+          "name":"Beating the performance gap - regulate or educate?"
+        },
+        {
+          "id":88,
+          "time":"13.45 &ndash; 15.00",
+          "name":"A future for microgeneration?"
+        },
+        {
+          "id":91,
+          "time":"15.15 &ndash; 16.15",
+          "name":"Embodied energy - time for regulation?"
+        }
+      ]
+    },
+    {
+      "date":"Thursday 07 March",
+      "programme":[
+        {
+          "id":92,
+          "time":"10.45 &ndash; 12.00",
+          "name":"Is the NPPF delivering on its promise of 'sustainable development'?"
+        },
+        {
+          "id":94,
+          "time":"12.30 &ndash; 13.30",
+          "name":"Integrated infrastructure approach"
+        },
+        {
+          "id":96,
+          "time":"14.15 &ndash; 15.15",
+          "name":"Dehydrating while we drown"
+        }
+      ]
+    }
+  ]
+}
