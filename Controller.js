@@ -7,6 +7,7 @@ Controller.prototype.update = function(){
 
         packageManager = new PackageManager({
             serverPackageVersionUrl: 'http://clients.de-facto.com/defacto/js-zip/api/package/version',
+            //serverPackageVersionUrl: 'http://admin.local/js-zip/api/package/version',
             fileSystem: fs
         });
 

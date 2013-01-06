@@ -127,6 +127,10 @@ PackageManager.prototype.update = function(action){
 
                         var filename = entry.filename.replace(/\//g, '-');
 
+                        view.writeConsole("Dealing with "+filename);
+
+                        leFileName = filename;
+
                         if (entry.directory || filename.indexOf('json') === -1) {
                             progress.complete++;
                             that.fire('install-progress', progress);
@@ -144,6 +148,7 @@ PackageManager.prototype.update = function(action){
                                         that.fire('install-progress', progress);
 
                                         if (progress.complete === progress.total){
+
                                             that.fire('install-after', summary);
                                         }
                                     }

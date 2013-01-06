@@ -26,6 +26,8 @@
  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+totalFilesRead = 0;
+
 (function(obj) {
 
 	var ERR_BAD_FORMAT = "File format is not recognized.";
@@ -237,9 +239,10 @@
 
 		function readUint8Array(index, length, callback, onerror) {
 			getData(function() {
-                view.writeConsole("read "+length+" bytes");
                 setTimeout(function(){
 				    callback(new Uint8Array(that.data.subarray(index, index + length)));
+                    view.writeConsole("read "+length+" bytes (currentFilename is:"+leFileName+" total files is "+totalFilesRead+")");
+                    totalFilesRead++;
                 }, 50);
 			}, onerror);
 		}

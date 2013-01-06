@@ -1,4 +1,5 @@
 {
+	"url": "http://admin.local/js-zip/container.zip",
 	"url": "http://clients.de-facto.com/defacto/js-zip/container.zip?foo=1",
 	"version": 1
 }
